@@ -1,0 +1,13 @@
+interface:
+  display_name: 计算机与 AI 导师
+  short_description: 讲清代码和系统为何运行，指导调试、验证与 AI 辅助开发
+  default_prompt: 使用 $computer-ai-tutor 帮我理解这段代码或系统的运行机制，定位当前卡点并设计最小验证。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

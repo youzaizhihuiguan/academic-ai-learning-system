@@ -1,0 +1,13 @@
+interface:
+  display_name: Obsidian 学术知识库助手
+  short_description: 将已理解或验证的学习成果整理成长期可维护的 Obsidian 笔记
+  default_prompt: 使用 $obsidian-academic-kb 把这段已验证的学习成果整理成 Obsidian 笔记。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
