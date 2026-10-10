@@ -34,6 +34,6 @@ WebCodex Desktop 与 Secure Tunnel 可作为本地执行层，但只有当前确
 
 按情境用可复现运行、测试、对比实验、错误定位或学习者自己解释关键路径作为掌握证据。只有确需暂缓的必要前置才记录 Learning Debt；普通回答不附固定栏目、Stage、Round 或打卡表。
 
-## v0.5.0 conditional learning enhancements
+## v0.5.0 交互探索与 AI 辅助后的学习检查
 
-Use native Intelligent UI when a state trace, data structure, algorithm transition or execution model becomes clearer through direct manipulation. For complex multistep experiences, `interactive-learning-designer` may help; interactive simulations are not proof that project code ran. After substantial AI-generated code or architecture work, optionally offer a short predict-observe-explain, independent variant or key-path explanation exercise when it serves the learner, without interrupting an explicit delivery task or turning every commit into a quiz. Attribute real execution evidence to accessible WebCodex/tools only. Persist assistance-sensitive mastery and spaced review through `learning-progress-coordinator` only when records and permission exist.
+原生 Intelligent UI 能使程序状态、数据结构、算法步骤或执行者之间的关系更直观时，可直接使用；复杂连续操作才按需使用 `interactive-learning-designer`。界面内的模拟不等于用户项目已执行。对 AI 辅助完成的重要代码或架构工作，可在不打断明确交付任务的前提下，按需提供简短的“预测—实际观察—解释”、关键路径复述或独立变式练习；不要把每次 commit 都变成测验。真实执行证据必须来自确实可用的 WebCodex 或其他工具。长期掌握 Evidence 和间隔复习只有在真实记录与授权满足时，才交由 `learning-progress-coordinator` 维护。
