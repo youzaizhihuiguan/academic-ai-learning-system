@@ -1,6 +1,6 @@
 ---
 name: learning-progress-coordinator
-description: 维护和恢复跨对话的长期课程学习状态。用户要求继续既有课程、查看或更新真实学习进度、核对独立掌握 Evidence、安排间隔检索复习、管理已学知识的 Review Queue、核对 Stage/Round 阶段闸门或必要 Learning Debt 时使用。具体课程路线由 Course Learning Profile 决定，学科正确性由领域导师判定；本 Skill 不负责新建课程协议、普通学科讲解、UI 工程或 Obsidian 知识笔记。无可信学习记录或存储权限时不能声称已恢复或保存。
+description: 维护和恢复跨对话的长期课程学习状态。查看或更新真实学习进度、核对独立掌握 Evidence、安排间隔检索复习、管理已学知识的 Review Queue、核对 Stage/Round 阶段闸门或必要 Learning Debt 时使用。具体课程路线由 Course Learning Profile 决定，学科正确性由领域导师判定；本 Skill 不负责新建课程协议、普通学科讲解、UI 工程或 Obsidian 知识笔记。无可信学习记录或存储权限时不能声称已恢复或保存。
 ---
 
 # 学习进度与复习协调器 / Learning Progress Coordinator
