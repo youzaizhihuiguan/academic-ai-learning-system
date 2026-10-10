@@ -129,3 +129,7 @@ Evidence 必须与课程目标一一对应。
 - Course Learning Profile 输出结构：`references/profile-schema.md`
 - Evidence、Stage、Round、Learning Debt：`references/evidence-staging.md`
 - 资料忠实度与补充/纠正规则：`references/source-fidelity.md`
+
+## v0.5.0 conditional learning enhancements
+
+When the course warrants it, record optional assistance-sensitive Evidence criteria, useful retrieval/transfer checks, or interactive affordances in the CLP. Keep stable course criteria here; live answer histories and review queues belong to existing Progress, which `learning-progress-coordinator` may maintain only with real records and permission. Simple native Intelligent UI is available to each Tutor directly; `interactive-learning-designer` is a specialist for complex multistep interaction, not a mandatory runtime dependency. Keep the original curriculum order, Stage/Round conditions and explicit Obsidian export boundary unchanged.
