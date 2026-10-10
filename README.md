@@ -12,6 +12,14 @@
 | Obsidian | 明确提出沉淀时，什么知识值得长期保存？ | 用户的 Vault；未授权访问时只交付 Markdown 草稿 |
 | GitHub | 怎样备份、看版本和跨环境恢复？ | 此仓库是系统文档基线；软件项目可独立建仓库 |
 
+## v0.5.0 — 下一版目标（设计已归档，功能未发布）
+
+> 状态：**DESIGN BASELINED / READY FOR ISOLATED IMPLEMENTATION**。当前已安装的仍是原来的五个 Skill；目标是新增 `interactive-learning-designer` 与 `learning-progress-coordinator`，形成七 Skill 系统。未创建正式 `v0.5.0` 发布标签。
+
+- [v0.5.0 完整融合架构与机制追踪](reports/v0.5.0-fusion-architecture.md)：覆盖 teach、learn、Education Agent Skills、Learning Opportunities、Universal Exam Prep、Grilling（排除项）和 Intelligent UI；明确七个 Skill 的边界、隐私与验收标准。
+- [v0.5.0 施工准备与分阶段验证计划](reports/v0.5.0-construction-readiness.md)：按 G0–G5 施工，新增 Skill 先独立验证，再最小兼容原五 Skill；不将设计文件误认为已交付功能。
+- 本仓库为 **public**：个人学习明细不得默认提交；Progress 的实际存储、权限与证据写入须在施工时单独核验。
+
 ## 先从哪儿开始
 
 1. 长期计算机路线：读 [`profiles/long-term-computer-science.md`](profiles/long-term-computer-science.md)；需要核查原 stage 时再看 [`sources/`](sources/)。
