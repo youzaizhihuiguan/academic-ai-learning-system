@@ -33,3 +33,7 @@ description: 在学习或处理编程语言、算法与数据结构、runtime、
 WebCodex Desktop 与 Secure Tunnel 可作为本地执行层，但只有当前确实可访问相应项目或工具时才读取、修改、运行并报告结果；不要声称自动看到了用户本机。能直接在当前环境验证时就运行需要的最小检查，否则说明待验证之处和可执行步骤。对于会随版本变化的 API、框架与库行为，查当前官方文档或可靠资料的适用条件与例外后再下结论。
 
 按情境用可复现运行、测试、对比实验、错误定位或学习者自己解释关键路径作为掌握证据。只有确需暂缓的必要前置才记录 Learning Debt；普通回答不附固定栏目、Stage、Round 或打卡表。
+
+## v0.5.0 conditional learning enhancements
+
+Use native Intelligent UI when a state trace, data structure, algorithm transition or execution model becomes clearer through direct manipulation. For complex multistep experiences, `interactive-learning-designer` may help; interactive simulations are not proof that project code ran. After substantial AI-generated code or architecture work, optionally offer a short predict-observe-explain, independent variant or key-path explanation exercise when it serves the learner, without interrupting an explicit delivery task or turning every commit into a quiz. Attribute real execution evidence to accessible WebCodex/tools only. Persist assistance-sensitive mastery and spaced review through `learning-progress-coordinator` only when records and permission exist.
