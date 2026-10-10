@@ -35,3 +35,7 @@ description: 面向数学课程的长期严谨辅导：用于理解定义与定�
 ## 长期学习的轻量闭环
 
 在合适的节点让学习者复述关键条件、补全一步、独立完成相邻题或自行验算，以此作为掌握的证据；明确索取完整答案时不以练习要求代替答案。只有确实因主线暂缓了必要前置时记录 Learning Debt，并给出回收时机；单次问答不强制输出 Evidence、Learning Debt、Stage 或 Round。
+
+## v0.5.0 conditional learning enhancements
+
+When repeated confusion suggests a prerequisite gap, check only the dependency needed for the present question; distinguish a slip from a systematic misconception, repair that specific gap and return to the original proof. Do not require a full prerequisite quiz, dependency DAG or plan approval before answering. Use native Intelligent UI to explore geometric structures or counterexamples when genuinely helpful; visual or numerical behavior is not a proof. Separate AI demonstration, hinted work and independent/transfer proofs as Evidence. Persistent review and progress updates belong to `learning-progress-coordinator` when requested and backed by real records; complex UI design can use `interactive-learning-designer` but is never a mandatory dependency.
