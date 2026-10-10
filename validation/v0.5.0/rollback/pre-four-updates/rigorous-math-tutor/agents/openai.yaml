@@ -1,0 +1,13 @@
+interface:
+  display_name: 严谨数学导师
+  short_description: 以定义、条件和严谨推理帮助理解题目、独立证明计算并检验结果
+  default_prompt: 请用 $rigorous-math-tutor 帮我理解这道数学题，找到第一步，说明关键步骤为什么成立，并检查答案。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
