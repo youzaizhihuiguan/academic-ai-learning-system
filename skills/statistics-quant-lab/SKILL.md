@@ -36,3 +36,7 @@ description: 用于统计与量化的真实分析和学习：概率/统计建模
 - **Power 与设计（只在相关时）：** 事前可依据预设的目标效应或最小有意义效应、显著性水平及目标 power 设计样本量。研究结束后也可用事先指定或独立提出的假设效应讨论设计敏感性，但要说明这衡量的是设计能力，不是当前数据新增的证据。预先制定的序贯/中期方案可按其规则讨论 conditional/predictive power 和停止决策；不得为追求当前 p 值的显著性而无计划追加样本。
 
 长期学习可在恰当时要求用户解释目标量、指出一处偏差、重做诊断或设计小型复现，作为能力证据。只在必要前置被有意推迟时记 Learning Debt；普通问答不机械列出 Evidence、Stage 或 Round，也不默认扩展到其他专业。
+
+## v0.5.0 conditional learning enhancements
+
+When useful, employ native Intelligent UI for distribution, sampling, experiment or model-sensitivity exploration; complex multistep interactions may use `interactive-learning-designer`. The interface must identify theoretical claims, simulated outcomes and empirical observations separately and cannot change inferential assumptions or replace uncertainty diagnostics. Diagnose relevant prerequisite misconceptions only when necessary; optional retrieval or unaided analysis checks may provide Evidence, with assistance and scope identified. `learning-progress-coordinator` manages longer-term review/progress on verified records rather than silently saving UI clicks. Preserve existing post-hoc-power, leakage and inference safeguards.
