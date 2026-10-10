@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 import yaml
 
-BASE = Path(__file__).resolve().parents[1] / 'skills'
+BASE = Path(__file__).resolve().parents[2] / 'skills'
 EXPECTED = [
     'course-tutor-builder', 'rigorous-math-tutor',
     'statistics-quant-lab', 'computer-ai-tutor',
