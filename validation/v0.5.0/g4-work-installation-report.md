@@ -1,5 +1,7 @@
 # v0.5.0 Work installation and acceptance checkpoint
 
+> Follow-up: the official two-Skill sync blocker was resolved; see [HTTP 422 resolution and account readback](skill-sync-422-resolution.md). The observations below are historical. Automatic routing, ordinary Chat UI and cross-chat restore remain pending. Do not follow the earlier manual-install fallback for this resolved blocker.
+
 - Date: 2026-10-10 (Asia/Tokyo).
 - Authoritative source: `feat/v0.5.0-learning-fusion@267069a3d2c10e5728c787d1d63d7c66ac0011f4`.
 - Verdict: **G4 PARTIAL / BLOCKED. v0.5.0 NOT RELEASED.**
