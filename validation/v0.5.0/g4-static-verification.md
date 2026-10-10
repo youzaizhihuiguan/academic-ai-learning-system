@@ -86,3 +86,13 @@ From branch `feat/v0.5.0-learning-fusion`, compare to `main`, re-run `python val
 **Live gate packet prepared:** `validation/v0.5.0/runtime-acceptance-protocol.md` provides concrete fresh-chat prompts, observable pass criteria and evidence-capture format. No prompt has been declared live PASS without installed ChatGPT Skill invocation evidence.
 
 **Gate after recovery:** G0 PASS; G1/G2 source/package PASS; G3 source integration PASS; G4 static integrity and synthetic GitHub CAS smoke PASS, **live interactive UI, implicit routing and private Progress remain BLOCKED**; G5 not started. Draft PR must stay unmerged.
+
+## GitHub Actions source-integrity evidence (2026-10-10)
+
+Added `.github/workflows/v050-skill-integrity.yml` on the feature branch. It checks out repository source, installs `PyYAML==6.0.2`, and runs the path-correct `python validation/v0.5.0/check_skills.py` in a clean GitHub Actions environment.
+
+For commit `b266cabc3ed17fcc7931ff28dfe8f5d2d67181a8`, both workflows completed with `conclusion=success`:
+- [pull_request run #38052985663](https://github.com/youzaizhihuiguan/academic-ai-learning-system/actions/runs/38052985663)
+- [push run #38052985612](https://github.com/youzaizhihuiguan/academic-ai-learning-system/actions/runs/38052985612)
+
+This closes the **automated remote source-check** subgate. It does **not** certify ChatGPT Skill auto-trigger, visual widget interaction, learning outcomes, or personal/private Progress persistence.
