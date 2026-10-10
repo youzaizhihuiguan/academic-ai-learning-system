@@ -37,6 +37,6 @@ description: 用于统计与量化的真实分析和学习：概率/统计建模
 
 长期学习可在恰当时要求用户解释目标量、指出一处偏差、重做诊断或设计小型复现，作为能力证据。只在必要前置被有意推迟时记 Learning Debt；普通问答不机械列出 Evidence、Stage 或 Round，也不默认扩展到其他专业。
 
-## v0.5.0 conditional learning enhancements
+## v0.5.0 按需交互与能力验证
 
-When useful, employ native Intelligent UI for distribution, sampling, experiment or model-sensitivity exploration; complex multistep interactions may use `interactive-learning-designer`. The interface must identify theoretical claims, simulated outcomes and empirical observations separately and cannot change inferential assumptions or replace uncertainty diagnostics. Diagnose relevant prerequisite misconceptions only when necessary; optional retrieval or unaided analysis checks may provide Evidence, with assistance and scope identified. `learning-progress-coordinator` manages longer-term review/progress on verified records rather than silently saving UI clicks. Preserve existing post-hoc-power, leakage and inference safeguards.
+适合时使用原生 Intelligent UI 展示分布、抽样、实验或模型敏感性；复杂多步骤交互可按需使用 `interactive-learning-designer`。界面必须区分理论结论、模拟结果和经验数据，不能用视觉演示替代统计假设、识别或不确定性诊断。仅在需要时定位前置误解，以主动检索、无提示解释或独立分析作为有范围的学习 Evidence，并标明辅助程度。长期复习和 Progress 更新由 `learning-progress-coordinator` 在具备来源与权限时处理，不能静默记录界面点击。保留原有 post-hoc power、数据泄漏和推断证据边界。
