@@ -130,6 +130,6 @@ Evidence 必须与课程目标一一对应。
 - Evidence、Stage、Round、Learning Debt：`references/evidence-staging.md`
 - 资料忠实度与补充/纠正规则：`references/source-fidelity.md`
 
-## v0.5.0 conditional learning enhancements
+## v0.5.0 按需交互与学习证据
 
-When the course warrants it, record optional assistance-sensitive Evidence criteria, useful retrieval/transfer checks, or interactive affordances in the CLP. Keep stable course criteria here; live answer histories and review queues belong to existing Progress, which `learning-progress-coordinator` may maintain only with real records and permission. Simple native Intelligent UI is available to each Tutor directly; `interactive-learning-designer` is a specialist for complex multistep interaction, not a mandatory runtime dependency. Keep the original curriculum order, Stage/Round conditions and explicit Obsidian export boundary unchanged.
+依据课程范型，在 CLP 中仅定义有实际价值的交互探索、独立验证、检索与迁移复测的稳定标准，不指定固定 UI 模板。真实作答历史、辅助程度与 Review Queue 属于 Progress：`learning-progress-coordinator` 只有在实际记录可读取、目标可写且获得授权时才维护它们。领域导师可直接利用原生 Intelligent UI；复杂多步骤交互才按需由 `interactive-learning-designer` 负责，不得假设多个 Skill 会自动协同。保留原课程顺序、Stage/Round 启用依据与 Obsidian 显式导出边界。
