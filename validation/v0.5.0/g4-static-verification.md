@@ -64,3 +64,25 @@ Legend: `S` = source contract inspected/static integrity passed; `L` = requires 
 ## Recovery / next action
 
 From branch `feat/v0.5.0-learning-fusion`, compare to `main`, re-run `python validation/v0.5.0/check_skills.py` and Skill creator validators; install Skills into a controlled ChatGPT Skill environment when possible, execute live M01–M20 and historical 12, then record `reports/v0.5.0-validation-verdict.md` with actual outcomes. Keep main and real Progress untouched if blockers persist.
+
+## 2026-10-10 G4 recovery additions (verified)
+
+**One previously hidden test-layout bug was found and fixed:**
+
+- First real invocation from repository-relative `validation/v0.5.0/check_skills.py` failed with `CHECKED 0 skills` and seven missing directory errors; the script incorrectly resolved `skills/` under `validation/`.
+- Root corrected from `Path(__file__).resolve().parents[1]` to `parents[2]` in commit `1ef1a5f4bc9bd6d2250f5ee1786db13421912ada`.
+- In the **actual versioned directory**, rerun now returned `CHECKED 7 skills; PASS`. No prior reported PASS from a non-versioned temporary path should be substituted for this evidence.
+- All seven `SKILL.md` packages reran through Skill Creator `quick_validate.py`; full seven `package_skill.py` runs succeeded. Every packaged file was compared byte-for-byte with its source and `zipfile.testzip()` returned no errors.
+- Four tiny compatibility sections were rewritten in Chinese for consistency with existing Skill text. Obsidian unchanged; original behaviors remain the regression target.
+
+**Real GitHub write/read/conflict smoke test (fictional data only):**
+
+- Created `validation/v0.5.0/fixtures/synthetic-progress.md` explicitly labeled synthetic, outside real `progress/`.
+- Read current blob `9f5f24fa89f1ea17da0330b9412631c6fb540b3f`; SHA-guarded update saved one synthetic Evidence record and preserved existing unrelated field `KEEP_THIS_LINE`.
+- Re-fetch returned exact written bytes at blob `de520dad923cb768f52d8cfd5cdc1744b5e02e72`; synthetic event ID occurred exactly once.
+- A deliberate stale write using the previous blob was rejected with GitHub **409 Conflict**. Re-fetch confirmed no overwrite and unchanged new blob.
+- This verifies the **GitHub connector storage primitive** in an isolated fixture, *not* the Coordinator's automatic behavior nor real private per-user progress persistence. Public repository privacy boundary remains intact.
+
+**Live gate packet prepared:** `validation/v0.5.0/runtime-acceptance-protocol.md` provides concrete fresh-chat prompts, observable pass criteria and evidence-capture format. No prompt has been declared live PASS without installed ChatGPT Skill invocation evidence.
+
+**Gate after recovery:** G0 PASS; G1/G2 source/package PASS; G3 source integration PASS; G4 static integrity and synthetic GitHub CAS smoke PASS, **live interactive UI, implicit routing and private Progress remain BLOCKED**; G5 not started. Draft PR must stay unmerged.
