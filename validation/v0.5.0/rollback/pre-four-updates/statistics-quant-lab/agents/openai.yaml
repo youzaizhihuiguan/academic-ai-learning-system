@@ -1,0 +1,13 @@
+interface:
+  display_name: 统计与量化导师
+  short_description: 学习统计推断、建模、预测、数据分析与量化研究，检查假设、偏差与结论边界
+  default_prompt: 使用 $statistics-quant-lab 帮我把这个统计或量化问题转成可验证的分析，并解释结果的可信范围。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

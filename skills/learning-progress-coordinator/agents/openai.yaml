@@ -1,0 +1,10 @@
+interface:
+  display_name: 学习进度与复习协调器
+  short_description: 恢复长期课程进度、核对学习证据并安排针对性复习
+  default_prompt: 使用 $learning-progress-coordinator 检查我这门课程真实的进度与学习证据，安排下一步和必要复习；没有记录的部分明确标未知。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+    - chatgpt
+  allow_implicit_invocation: true

@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-10T13:31:28.657878+00:00",
+  "source_head": "d325b7c6fba320331727fafc9cc3c9225c5e97b6",
+  "name": "course-tutor-builder",
+  "identity": "skill-6ab7def0ccf48191baf6dd3758b30516",
+  "parent": "2efafac6e339a8bac38974d3f5d3cf2a7e18ac3f",
+  "client_commit": "1a839167642b44f04a30b9d6f048f70424282567",
+  "changed_files": [
+    "skill-6ab7def0ccf48191baf6dd3758b30516/SKILL.md"
+  ],
+  "changed_skill_count": 1,
+  "push_exit": 0,
+  "push_output": "To https://chatgpt.com/backend-api/git-authed/skills\n   2efafac..1a83916  HEAD -> master\n",
+  "before": {
+    "statistics-quant-lab": {
+      "directory": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+      "tree": "72b31312b8ba51eda4a2ce149ac776d08584b074"
+    },
+    "rigorous-math-tutor": {
+      "directory": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+      "tree": "49df085765b83a26fe6e0b58b9d673512ea75d95"
+    },
+    "webcodex-project-driver": {
+      "directory": "skill-6ac4ec61656c819183714870ff114394",
+      "tree": "3fe15558b1d48574165d070e761a0d9283b42830"
+    },
+    "obsidian-academic-kb": {
+      "directory": "skill-6ab8f11863448191ba3dadde8037d515",
+      "tree": "78a9f74f1753bbafe2514b466a60e807073f69e9"
+    },
+    "course-tutor-builder": {
+      "directory": "skill-6ab7def0ccf48191baf6dd3758b30516",
+      "tree": "f1c7b621ed37a9b44be0c1a406060310d756a8a8"
+    },
+    "computer-ai-tutor": {
+      "directory": "skill-6ab8e8f26b24819190f3b1210fb803c1",
+      "tree": "d88e5d0ffd68b4b0520f509e6fbf2adf4ab26a9b"
+    },
+    "learning-progress-coordinator": {
+      "directory": "skill-6aca3a1602908191a5fe5c8484f8d28d",
+      "tree": "049743a411d93e7f002a8a9426b8d20f629182a8"
+    },
+    "interactive-learning-designer": {
+      "directory": "skill-6aca39ab0c8c81919be8fdb11a892483",
+      "tree": "c97e93ad3fad212f7e619730a4683764c32e7039"
+    }
+  },
+  "canonical_head": "1a839167642b44f04a30b9d6f048f70424282567",
+  "after": {
+    "statistics-quant-lab": {
+      "directory": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+      "tree": "72b31312b8ba51eda4a2ce149ac776d08584b074"
+    },
+    "rigorous-math-tutor": {
+      "directory": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+      "tree": "49df085765b83a26fe6e0b58b9d673512ea75d95"
+    },
+    "webcodex-project-driver": {
+      "directory": "skill-6ac4ec61656c819183714870ff114394",
+      "tree": "3fe15558b1d48574165d070e761a0d9283b42830"
+    },
+    "obsidian-academic-kb": {
+      "directory": "skill-6ab8f11863448191ba3dadde8037d515",
+      "tree": "78a9f74f1753bbafe2514b466a60e807073f69e9"
+    },
+    "course-tutor-builder": {
+      "directory": "skill-6ab7def0ccf48191baf6dd3758b30516",
+      "tree": "d7a6f998fb68aba5982c2f06f23b7286d9d990c9"
+    },
+    "computer-ai-tutor": {
+      "directory": "skill-6ab8e8f26b24819190f3b1210fb803c1",
+      "tree": "d88e5d0ffd68b4b0520f509e6fbf2adf4ab26a9b"
+    },
+    "learning-progress-coordinator": {
+      "directory": "skill-6aca3a1602908191a5fe5c8484f8d28d",
+      "tree": "049743a411d93e7f002a8a9426b8d20f629182a8"
+    },
+    "interactive-learning-designer": {
+      "directory": "skill-6aca39ab0c8c81919be8fdb11a892483",
+      "tree": "c97e93ad3fad212f7e619730a4683764c32e7039"
+    }
+  },
+  "source_files": {
+    "SKILL.md": "2961a0ca7c8c2a2acac707a712bd9ce472c5e7b2",
+    "agents/openai.yaml": "e68419e066ecf4ab63a8c686b1e256ef83663301",
+    "references/source-fidelity.md": "a88c1fc806e270819246caf94ef30c976bd1da0f",
+    "references/evidence-staging.md": "e154037916ead2c3d3dabb2c67e172faa6c873df",
+    "references/profile-schema.md": "2a302a6fe1ed2f4eea238190dd003f3646d91d26",
+    "references/archetypes.md": "760096bdd78495de60a750a1a642a9f58fbcfe7e",
+    "assets/icon.svg": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079"
+  },
+  "remote_files": {
+    "SKILL.md": "2961a0ca7c8c2a2acac707a712bd9ce472c5e7b2",
+    "agents/openai.yaml": "e68419e066ecf4ab63a8c686b1e256ef83663301",
+    "references/source-fidelity.md": "a88c1fc806e270819246caf94ef30c976bd1da0f",
+    "references/evidence-staging.md": "e154037916ead2c3d3dabb2c67e172faa6c873df",
+    "references/profile-schema.md": "2a302a6fe1ed2f4eea238190dd003f3646d91d26",
+    "references/archetypes.md": "760096bdd78495de60a750a1a642a9f58fbcfe7e",
+    "assets/icon.svg": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079"
+  },
+  "core_content_exact": true,
+  "yaml_semantically_equal": true,
+  "same_identity": true,
+  "same_account_inventory": true,
+  "untouched_skills_exact": true,
+  "differences": [],
+  "clean": true
+}

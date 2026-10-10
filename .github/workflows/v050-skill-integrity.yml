@@ -1,0 +1,29 @@
+name: v0.5.0 Skill source integrity
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**'
+      - 'validation/v0.5.0/**'
+      - '.github/workflows/v050-skill-integrity.yml'
+  push:
+    branches:
+      - 'feat/v0.5.0-learning-fusion'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install YAML parser
+        run: python -m pip install 'PyYAML==6.0.2'
+      - name: Validate seven Skill source trees
+        run: python validation/v0.5.0/check_skills.py

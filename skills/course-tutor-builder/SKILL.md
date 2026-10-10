@@ -129,3 +129,7 @@ Evidence 必须与课程目标一一对应。
 - Course Learning Profile 输出结构：`references/profile-schema.md`
 - Evidence、Stage、Round、Learning Debt：`references/evidence-staging.md`
 - 资料忠实度与补充/纠正规则：`references/source-fidelity.md`
+
+## v0.5.0 按需交互与学习证据
+
+依据课程范型，在 CLP 中仅定义有实际价值的交互探索、独立验证、检索与迁移复测的稳定标准，不指定固定 UI 模板。真实作答历史、辅助程度与 Review Queue 属于 Progress：`learning-progress-coordinator` 只有在实际记录可读取、目标可写且获得授权时才维护它们。领域导师可直接利用原生 Intelligent UI；复杂多步骤交互才按需由 `interactive-learning-designer` 负责，不得假设多个 Skill 会自动协同。保留原课程顺序、Stage/Round 启用依据与 Obsidian 显式导出边界。
