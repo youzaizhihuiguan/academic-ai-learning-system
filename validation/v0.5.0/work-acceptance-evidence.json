@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-10",
+  "timezone": "Asia/Tokyo",
+  "repository": "youzaizhihuiguan/academic-ai-learning-system",
+  "branch": "feat/v0.5.0-learning-fusion",
+  "source_head": "267069a3d2c10e5728c787d1d63d7c66ac0011f4",
+  "main_head": "b40363416a3c153d903612eb1ec70573e44b31f9",
+  "source_files": [
+    {
+      "path": "skills/computer-ai-tutor/SKILL.md",
+      "git_blob_sha": "2a9ad170ba312a240f7e067bb00a705c30bd05df"
+    },
+    {
+      "path": "skills/computer-ai-tutor/agents/openai.yaml",
+      "git_blob_sha": "c39ead44c4214007344db26ecb20896a7d7e8248"
+    },
+    {
+      "path": "skills/computer-ai-tutor/assets/icon.svg",
+      "git_blob_sha": "c782ded19ff8d6a930f75d1c6433f509da0df66a"
+    },
+    {
+      "path": "skills/course-tutor-builder/SKILL.md",
+      "git_blob_sha": "2961a0ca7c8c2a2acac707a712bd9ce472c5e7b2"
+    },
+    {
+      "path": "skills/course-tutor-builder/agents/openai.yaml",
+      "git_blob_sha": "e68419e066ecf4ab63a8c686b1e256ef83663301"
+    },
+    {
+      "path": "skills/course-tutor-builder/assets/icon.svg",
+      "git_blob_sha": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079"
+    },
+    {
+      "path": "skills/course-tutor-builder/references/archetypes.md",
+      "git_blob_sha": "760096bdd78495de60a750a1a642a9f58fbcfe7e"
+    },
+    {
+      "path": "skills/course-tutor-builder/references/evidence-staging.md",
+      "git_blob_sha": "e154037916ead2c3d3dabb2c67e172faa6c873df"
+    },
+    {
+      "path": "skills/course-tutor-builder/references/profile-schema.md",
+      "git_blob_sha": "2a302a6fe1ed2f4eea238190dd003f3646d91d26"
+    },
+    {
+      "path": "skills/course-tutor-builder/references/source-fidelity.md",
+      "git_blob_sha": "a88c1fc806e270819246caf94ef30c976bd1da0f"
+    },
+    {
+      "path": "skills/interactive-learning-designer/SKILL.md",
+      "git_blob_sha": "d7df19586c7354053913c43f2b1c026786583c6d"
+    },
+    {
+      "path": "skills/interactive-learning-designer/agents/openai.yaml",
+      "git_blob_sha": "92e6553da9dd8b8bb3049ff8865511fb2bc6bbe5"
+    },
+    {
+      "path": "skills/interactive-learning-designer/assets/icon.svg",
+      "git_blob_sha": "4b96fd7df071003784fca4ca12e23a9bdfe37f58"
+    },
+    {
+      "path": "skills/interactive-learning-designer/references/interaction-contract.md",
+      "git_blob_sha": "1a7c84c3c6196aef50a48743e436ccfb3813ba0b"
+    },
+    {
+      "path": "skills/interactive-learning-designer/references/interaction-qa.md",
+      "git_blob_sha": "64b802455d85fb6ba53d59d7e57754e686bc840e"
+    },
+    {
+      "path": "skills/learning-progress-coordinator/SKILL.md",
+      "git_blob_sha": "de9a5851591eb7ffd8804a221bbc23d0e7c8bfdb"
+    },
+    {
+      "path": "skills/learning-progress-coordinator/agents/openai.yaml",
+      "git_blob_sha": "03b8eab1583ef078a7acaa570566ce7f411c359c"
+    },
+    {
+      "path": "skills/learning-progress-coordinator/assets/icon.svg",
+      "git_blob_sha": "50e6d1596e93ff599f17c3c268f3898065e4f55c"
+    },
+    {
+      "path": "skills/learning-progress-coordinator/references/progress-contract.md",
+      "git_blob_sha": "0876d8a835b0d10461807faf4478a2f6958ec85a"
+    },
+    {
+      "path": "skills/learning-progress-coordinator/references/review-policy.md",
+      "git_blob_sha": "7d6d4b899e49d8d2d30abdf279a90897289a6b87"
+    },
+    {
+      "path": "skills/obsidian-academic-kb/SKILL.md",
+      "git_blob_sha": "a16e7e2839e82e70b2db1595fe6a17edd1b6bd5e"
+    },
+    {
+      "path": "skills/obsidian-academic-kb/agents/openai.yaml",
+      "git_blob_sha": "7c06799da29fec021ed8bb7ef4c123523d29af2b"
+    },
+    {
+      "path": "skills/obsidian-academic-kb/assets/icon.svg",
+      "git_blob_sha": "4c3163aa85e15ed80114f93a9a2b140a53012c44"
+    },
+    {
+      "path": "skills/rigorous-math-tutor/SKILL.md",
+      "git_blob_sha": "407af7bec7eca89a7ed7e2ba152b0ff7f2ec972b"
+    },
+    {
+      "path": "skills/rigorous-math-tutor/agents/openai.yaml",
+      "git_blob_sha": "29618ea542f141ccaca56c46405f0622d09d77f5"
+    },
+    {
+      "path": "skills/rigorous-math-tutor/assets/icon.svg",
+      "git_blob_sha": "f0ec0fb4fb305880342dc69ee33cec099fb4dd24"
+    },
+    {
+      "path": "skills/statistics-quant-lab/SKILL.md",
+      "git_blob_sha": "6d59e6030071301e111d0766a8ffaa4ea4189602"
+    },
+    {
+      "path": "skills/statistics-quant-lab/agents/openai.yaml",
+      "git_blob_sha": "8447b0cd27bed86a51d6ac5c846a015228a1d9c9"
+    },
+    {
+      "path": "skills/statistics-quant-lab/assets/icon.svg",
+      "git_blob_sha": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079"
+    },
+    {
+      "path": "validation/v0.5.0/check_skills.py",
+      "git_blob_sha": "1f7049b937267d5bfceb3822dd9fe4b1324b9ef8"
+    }
+  ],
+  "installed_baseline": {
+    "course-tutor-builder": "f304871efe46b4770720b336de79ec7c54d5773d",
+    "rigorous-math-tutor": "5a8ed3badd16cff8e8250d9aa7efc586070cf1c0",
+    "statistics-quant-lab": "270cc5fe606764c48dd34be4634c53268b669a58",
+    "computer-ai-tutor": "a0b70beaa2694e381b971774ab99afa29ef69d3f",
+    "obsidian-academic-kb": "a16e7e2839e82e70b2db1595fe6a17edd1b6bd5e"
+  },
+  "installation_attempt": {
+    "mode": "ChatGPT Work, official Skill Creator Git persistence route",
+    "baseline_commit": "025e2b96035bdf28902add17f0abe030f48d8fee",
+    "local_candidate_commit": "03a249a6a22e8de254790e2d2c84195888c22ff1",
+    "push_exit_code": 1,
+    "push_error": "RPC failed; HTTP 422; unexpected disconnect; remote hung up",
+    "remote_head_after_attempt": "025e2b96035bdf28902add17f0abe030f48d8fee",
+    "new_skills_in_platform_catalog": false,
+    "root_cause": "unestablished; no rejection detail returned",
+    "legacy_install_changes": false
+  },
+  "private_synthetic_storage": {
+    "surface": "account Library; no public upload or sharing action",
+    "acl_audit": "not performed; no broad visibility or cross-account privacy claim",
+    "versions": [
+      0,
+      1,
+      2
+    ],
+    "stale_expected_version": 0,
+    "stale_observed_version": 1,
+    "stale_error_code": "CONFLICT",
+    "unqualified_first_read_after_version_2": 1,
+    "pinned_read_version": 2,
+    "materialized_latest_version": 2,
+    "byte_sha256": "30e932207fa69f88a9b1f66704ad25c5c6f8fc3504cfab6adcf8e3d7f2b72ae4",
+    "final_size_bytes": 1292,
+    "duplicate_events": false,
+    "annotations_preserved": true,
+    "real_learning_data_used": false,
+    "coordinator_invocation": "unobserved/not installed",
+    "cross_chat_restore": "not executed"
+  },
+  "runtime_gates": {
+    "installation": "BLOCKED",
+    "automatic_trigger": "BLOCKED",
+    "ordinary_chat_ui": "PENDING",
+    "private_storage_primitive": "PASS with version-aware readback",
+    "private_cross_chat_restore": "PENDING",
+    "legacy_update": "DEFERRED",
+    "g4": "PARTIAL/BLOCKED",
+    "g5": "NOT STARTED",
+    "released": false
+  }
+}
