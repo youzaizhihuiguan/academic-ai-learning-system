@@ -1,7 +1,7 @@
 interface:
   display_name: 交互学习设计器
-  short_description: 按学习目标自由创造可操作、可探索、多视图联动的原生学习体验
-  default_prompt: 使用 $interactive-learning-designer 根据我的学习目标，创造最适合的原生 Intelligent UI 学习体验。形式不限于滑块或测验；让我能探索、操作、观察、比较和追问，同时保证学科正确性和操作反馈。
+  short_description: 按学习目标自由创造定义、练习、探索、多视图联动与即时反馈的原生学习体验
+  default_prompt: 使用 $interactive-learning-designer 根据我的学习目标，创造最适合的原生 Intelligent UI 与学习活动。可以解释和重建定义、出题与变式、设计例/反例、主动回忆、探索、操作、比较、提示与反馈；形式不限于滑块或测验，同时保证学科正确性和操作反馈。
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
