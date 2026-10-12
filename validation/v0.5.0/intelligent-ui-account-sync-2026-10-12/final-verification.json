@@ -1,0 +1,305 @@
+{
+  "canonical_account_ref": "329eabfc4607a3f8b0c88f266427c60e96af5b63",
+  "inventory": [
+    {
+      "id": "skill-6ab7def0ccf48191baf6dd3758b30516",
+      "name": "course-tutor-builder",
+      "tree": "d7a6f998fb68aba5982c2f06f23b7286d9d990c9",
+      "skill_md_blob": "2961a0ca7c8c2a2acac707a712bd9ce472c5e7b2",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+      "name": "rigorous-math-tutor",
+      "tree": "b528e50ab44360315a232a6e1d744f7152be0e9a",
+      "skill_md_blob": "8194fe508447bc7393cb66d29a2617fce0cc5fbc",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+      "name": "statistics-quant-lab",
+      "tree": "ecb8c142a1d6667c2a41d0d890a3b1798134265e",
+      "skill_md_blob": "a79584a443075b255b1f3d140dac955fd23ff082",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6ab8e8f26b24819190f3b1210fb803c1",
+      "name": "computer-ai-tutor",
+      "tree": "8d4f426c423014486d8cdcb4d67870002b184eae",
+      "skill_md_blob": "8c50876c48cb02b083780653aae823b79669c00a",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6ab8f11863448191ba3dadde8037d515",
+      "name": "obsidian-academic-kb",
+      "tree": "78a9f74f1753bbafe2514b466a60e807073f69e9",
+      "skill_md_blob": "a16e7e2839e82e70b2db1595fe6a17edd1b6bd5e",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6ac4ec61656c819183714870ff114394",
+      "name": "webcodex-project-driver",
+      "tree": "3fe15558b1d48574165d070e761a0d9283b42830",
+      "skill_md_blob": "230730872d8dc3e2e061ff84e9d3ef5b5ca02b18",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6aca39ab0c8c81919be8fdb11a892483",
+      "name": "interactive-learning-designer",
+      "tree": "03d21bd43471f891aacdaf5681c20a61ea4647c9",
+      "skill_md_blob": "7b3dc12827470faaf5e8f358bec13145932d2ce4",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6aca3a1602908191a5fe5c8484f8d28d",
+      "name": "learning-progress-coordinator",
+      "tree": "049743a411d93e7f002a8a9426b8d20f629182a8",
+      "skill_md_blob": "de9a5851591eb7ffd8804a221bbc23d0e7c8bfdb",
+      "allow_implicit_invocation": true
+    }
+  ],
+  "academic_inventory": [
+    {
+      "id": "skill-6ab7def0ccf48191baf6dd3758b30516",
+      "name": "course-tutor-builder",
+      "tree": "d7a6f998fb68aba5982c2f06f23b7286d9d990c9",
+      "skill_md_blob": "2961a0ca7c8c2a2acac707a712bd9ce472c5e7b2",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+      "name": "rigorous-math-tutor",
+      "tree": "b528e50ab44360315a232a6e1d744f7152be0e9a",
+      "skill_md_blob": "8194fe508447bc7393cb66d29a2617fce0cc5fbc",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+      "name": "statistics-quant-lab",
+      "tree": "ecb8c142a1d6667c2a41d0d890a3b1798134265e",
+      "skill_md_blob": "a79584a443075b255b1f3d140dac955fd23ff082",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6ab8e8f26b24819190f3b1210fb803c1",
+      "name": "computer-ai-tutor",
+      "tree": "8d4f426c423014486d8cdcb4d67870002b184eae",
+      "skill_md_blob": "8c50876c48cb02b083780653aae823b79669c00a",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6ab8f11863448191ba3dadde8037d515",
+      "name": "obsidian-academic-kb",
+      "tree": "78a9f74f1753bbafe2514b466a60e807073f69e9",
+      "skill_md_blob": "a16e7e2839e82e70b2db1595fe6a17edd1b6bd5e",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6aca39ab0c8c81919be8fdb11a892483",
+      "name": "interactive-learning-designer",
+      "tree": "03d21bd43471f891aacdaf5681c20a61ea4647c9",
+      "skill_md_blob": "7b3dc12827470faaf5e8f358bec13145932d2ce4",
+      "allow_implicit_invocation": true
+    },
+    {
+      "id": "skill-6aca3a1602908191a5fe5c8484f8d28d",
+      "name": "learning-progress-coordinator",
+      "tree": "049743a411d93e7f002a8a9426b8d20f629182a8",
+      "skill_md_blob": "de9a5851591eb7ffd8804a221bbc23d0e7c8bfdb",
+      "allow_implicit_invocation": true
+    }
+  ],
+  "no_duplicates": true,
+  "target_ids_unchanged": true,
+  "unchanged_skills": [
+    "course-tutor-builder",
+    "obsidian-academic-kb",
+    "webcodex-project-driver",
+    "learning-progress-coordinator"
+  ],
+  "core_content_checks": "PASS",
+  "rollback_complete": true,
+  "rollback_original_ref": "ad4d1eaa334325c1386d82ba2a233361661dbbc8",
+  "rollback_sha256": "89d03b6975bf9a1e444abf0c34193ea9510a03b95497c85d4223253681c4a014",
+  "pushes": [
+    {
+      "name": "interactive-learning-designer",
+      "id": "skill-6aca39ab0c8c81919be8fdb11a892483",
+      "before_remote": "ad4d1eaa334325c1386d82ba2a233361661dbbc8",
+      "commit": "d37cd47e0139d30bfcc9a65d9aba779e6c533dfc",
+      "changed": [
+        "skill-6aca39ab0c8c81919be8fdb11a892483/SKILL.md",
+        "skill-6aca39ab0c8c81919be8fdb11a892483/agents/openai.yaml",
+        "skill-6aca39ab0c8c81919be8fdb11a892483/assets/icon.svg",
+        "skill-6aca39ab0c8c81919be8fdb11a892483/references/intelligent-ui-composition.md",
+        "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-contract.md",
+        "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-qa.md"
+      ],
+      "push_output": "To https://chatgpt.com/backend-api/git-authed/skills\n   ad4d1ea..d37cd47  HEAD -> master",
+      "push_success": true,
+      "canonical_ref": "68b096092e488fa5600babc244a98a955186daf5",
+      "identity_verified": true,
+      "readback_match": true,
+      "canonicalization": [
+        "skill-6aca39ab0c8c81919be8fdb11a892483/agents/openai.yaml YAML formatting canonicalization",
+        "skill-6aca39ab0c8c81919be8fdb11a892483/assets/icon.svg platform replaced source SVG 4b96fd7df071003784fca4ca12e23a9bdfe37f58 with canonical platform icon f387e96b74b4a2a407760075db8859a99fdf91f1"
+      ],
+      "allow_implicit_invocation": true,
+      "other_skills_unchanged": true,
+      "canonical_files": [
+        {
+          "path": "skill-6aca39ab0c8c81919be8fdb11a892483/SKILL.md",
+          "mode": "100644",
+          "git_blob": "7b3dc12827470faaf5e8f358bec13145932d2ce4",
+          "sha256": "26435bcfc3b2efcd67e3cf4dcf5818b5db13eecba2b82094b091a98d4de5d7a8"
+        },
+        {
+          "path": "skill-6aca39ab0c8c81919be8fdb11a892483/agents/openai.yaml",
+          "mode": "100644",
+          "git_blob": "b9bc965665f5f733ccca7247e909d81031d9b2f9",
+          "sha256": "18f575aeca3f0ed81b7438818df8aeb72933808bce9166e3ddd7c84a0c5f9664"
+        },
+        {
+          "path": "skill-6aca39ab0c8c81919be8fdb11a892483/assets/icon.svg",
+          "mode": "100644",
+          "git_blob": "f387e96b74b4a2a407760075db8859a99fdf91f1",
+          "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4"
+        },
+        {
+          "path": "skill-6aca39ab0c8c81919be8fdb11a892483/references/intelligent-ui-composition.md",
+          "mode": "100644",
+          "git_blob": "53c6e2beeae796fc778f09a86a2c931d86a4cff0",
+          "sha256": "2277677833920c1acb482f60802fe87cfacf60c5ef55ef5716de91e1f799c610"
+        },
+        {
+          "path": "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-contract.md",
+          "mode": "100644",
+          "git_blob": "2e7407b2a5e53216d6ad468335d863b885395b20",
+          "sha256": "b7199803cd396f63f8e65bff15059df5b39263dcbd885b4f9383fbb20b5feb92"
+        },
+        {
+          "path": "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-qa.md",
+          "mode": "100644",
+          "git_blob": "18ccb0bd5c22cd419e5505ff6d582f8be415e0dd",
+          "sha256": "da5127d1f5c7ff7db6536233f18132931484c16a673ad31703d53dfb508a1330"
+        }
+      ]
+    },
+    {
+      "name": "rigorous-math-tutor",
+      "id": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+      "before_remote": "68b096092e488fa5600babc244a98a955186daf5",
+      "commit": "e1126ec5a57363dea4906740d5a9f976a6974a02",
+      "changed": [
+        "skill-6ab8d7746f0c81919625f7a2e38672d2/SKILL.md",
+        "skill-6ab8d7746f0c81919625f7a2e38672d2/assets/icon.svg"
+      ],
+      "push_output": "To https://chatgpt.com/backend-api/git-authed/skills\n   68b0960..e1126ec  HEAD -> master",
+      "push_success": true,
+      "canonical_ref": "0537a4be4b1bfd6d1b514ced2a81311676876d1a",
+      "identity_verified": true,
+      "readback_match": true,
+      "canonicalization": [
+        "skill-6ab8d7746f0c81919625f7a2e38672d2/assets/icon.svg platform replaced source SVG f0ec0fb4fb305880342dc69ee33cec099fb4dd24 with canonical platform icon 16cc917601dd1e26eec844321d180f0b1a669759"
+      ],
+      "allow_implicit_invocation": true,
+      "other_skills_unchanged": true,
+      "canonical_files": [
+        {
+          "path": "skill-6ab8d7746f0c81919625f7a2e38672d2/SKILL.md",
+          "mode": "100644",
+          "git_blob": "8194fe508447bc7393cb66d29a2617fce0cc5fbc",
+          "sha256": "86f148cf650a4ed1807c19cb18ce73b52c78bc526348be33127ec8f0a3e638ef"
+        },
+        {
+          "path": "skill-6ab8d7746f0c81919625f7a2e38672d2/agents/openai.yaml",
+          "mode": "100644",
+          "git_blob": "29618ea542f141ccaca56c46405f0622d09d77f5",
+          "sha256": "963b23944e2a84b0548b56a8150c76d98d090958f7c452489509efc4eb545f7b"
+        },
+        {
+          "path": "skill-6ab8d7746f0c81919625f7a2e38672d2/assets/icon.svg",
+          "mode": "100644",
+          "git_blob": "16cc917601dd1e26eec844321d180f0b1a669759",
+          "sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91"
+        }
+      ]
+    },
+    {
+      "name": "statistics-quant-lab",
+      "id": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+      "before_remote": "0537a4be4b1bfd6d1b514ced2a81311676876d1a",
+      "commit": "c273ed3724bfd27160fe207ff986bccfad32dad9",
+      "changed": [
+        "skill-6ab8e0879ddc8191a31bd0fc1f91da77/SKILL.md"
+      ],
+      "push_output": "To https://chatgpt.com/backend-api/git-authed/skills\n   0537a4b..c273ed3  HEAD -> master",
+      "push_success": true,
+      "canonical_ref": "c273ed3724bfd27160fe207ff986bccfad32dad9",
+      "identity_verified": true,
+      "readback_match": true,
+      "canonicalization": [],
+      "allow_implicit_invocation": true,
+      "other_skills_unchanged": true,
+      "canonical_files": [
+        {
+          "path": "skill-6ab8e0879ddc8191a31bd0fc1f91da77/SKILL.md",
+          "mode": "100644",
+          "git_blob": "a79584a443075b255b1f3d140dac955fd23ff082",
+          "sha256": "057e103f9b1a331289a175d61dc4e4f6167662f1f610aa5de296507269312a76"
+        },
+        {
+          "path": "skill-6ab8e0879ddc8191a31bd0fc1f91da77/agents/openai.yaml",
+          "mode": "100644",
+          "git_blob": "8447b0cd27bed86a51d6ac5c846a015228a1d9c9",
+          "sha256": "a1f9a10def289574d796dff330cd897f0e754b4c02db10beab5bfae8a3fa8321"
+        },
+        {
+          "path": "skill-6ab8e0879ddc8191a31bd0fc1f91da77/assets/icon.svg",
+          "mode": "100644",
+          "git_blob": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079",
+          "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b"
+        }
+      ]
+    },
+    {
+      "name": "computer-ai-tutor",
+      "id": "skill-6ab8e8f26b24819190f3b1210fb803c1",
+      "before_remote": "c273ed3724bfd27160fe207ff986bccfad32dad9",
+      "commit": "329eabfc4607a3f8b0c88f266427c60e96af5b63",
+      "changed": [
+        "skill-6ab8e8f26b24819190f3b1210fb803c1/SKILL.md"
+      ],
+      "push_output": "To https://chatgpt.com/backend-api/git-authed/skills\n   c273ed3..329eabf  HEAD -> master",
+      "push_success": true,
+      "canonical_ref": "329eabfc4607a3f8b0c88f266427c60e96af5b63",
+      "identity_verified": true,
+      "readback_match": true,
+      "canonicalization": [],
+      "allow_implicit_invocation": true,
+      "other_skills_unchanged": true,
+      "canonical_files": [
+        {
+          "path": "skill-6ab8e8f26b24819190f3b1210fb803c1/SKILL.md",
+          "mode": "100644",
+          "git_blob": "8c50876c48cb02b083780653aae823b79669c00a",
+          "sha256": "0f826cff3b5386dda3f05d683f99b679aa90cbf19a4e5224d04d6714f2648449"
+        },
+        {
+          "path": "skill-6ab8e8f26b24819190f3b1210fb803c1/agents/openai.yaml",
+          "mode": "100644",
+          "git_blob": "c39ead44c4214007344db26ecb20896a7d7e8248",
+          "sha256": "752d0a071e666e32ed846729c407a164450709d48f04f9545e5013bf703ed766"
+        },
+        {
+          "path": "skill-6ab8e8f26b24819190f3b1210fb803c1/assets/icon.svg",
+          "mode": "100644",
+          "git_blob": "c782ded19ff8d6a930f75d1c6433f509da0df66a",
+          "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d"
+        }
+      ]
+    }
+  ],
+  "runtime_acceptance": "NOT RUN",
+  "source_skill_files_modified": false
+}

@@ -39,4 +39,4 @@ description: 用于统计与量化的真实分析和学习：概率/统计建模
 
 ## v0.5.0 按需交互与能力验证
 
-适合时使用原生 Intelligent UI 展示分布、抽样、实验或模型敏感性；复杂多步骤交互可按需使用 `interactive-learning-designer`。界面必须区分理论结论、模拟结果和经验数据，不能用视觉演示替代统计假设、识别或不确定性诊断。仅在需要时定位前置误解，以主动检索、无提示解释或独立分析作为有范围的学习 Evidence，并标明辅助程度。长期复习和 Progress 更新由 `learning-progress-coordinator` 在具备来源与权限时处理，不能静默记录界面点击。保留原有 post-hoc power、数据泄漏和推断证据边界。
+**当原生 Intelligent UI 能明显改善分布、抽样、实验设计、模型比较、敏感性或不确定性的理解与操作时，主动直接使用，即使用户没有点名 UI，也不要等待 `interactive-learning-designer`。** 简单文字或表格更清楚时保持简单；只有多步骤状态、多视图联动、复杂回退/重置或交互 QA 需要专门设计时，才按需使用 `interactive-learning-designer`。界面必须区分理论结论、模拟结果和经验数据，不能用视觉演示替代统计假设、识别或不确定性诊断。仅在需要时定位前置误解，以主动检索、无提示解释或独立分析作为有范围的学习 Evidence，并标明辅助程度。长期复习和 Progress 更新由 `learning-progress-coordinator` 在具备来源与权限时处理，不能静默记录界面点击。保留原有 post-hoc power、数据泄漏和推断证据边界。
