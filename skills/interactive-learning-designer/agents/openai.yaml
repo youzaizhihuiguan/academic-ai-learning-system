@@ -1,7 +1,7 @@
 interface:
-  display_name: Intelligent UI 学习增强器
-  short_description: 在学习对话中把 Tutor 内容转换为最合适的 Intelligent UI，不另建教学法
-  default_prompt: 使用 $interactive-learning-designer 判断当前学习回答是否值得用 Intelligent UI，并在不改变领域 Tutor 内容与判据的前提下，用当前可用的原生布局、图示、图表、控件、输入或状态交互增强表达；纯文本更合适时保持纯文本。
+  display_name: Intelligent UI 复杂交互设计器
+  short_description: 处理复杂状态、多视图联动、回退与交互 QA；普通 Intelligent UI 由领域 Tutor 直接使用
+  default_prompt: 使用 $interactive-learning-designer 在领域内容和答案判据已经明确的前提下，设计或检查复杂 Intelligent UI 的状态、联动、输入反馈、回退与重置；普通图示、图表或简单控件无需调用本 Skill。
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
