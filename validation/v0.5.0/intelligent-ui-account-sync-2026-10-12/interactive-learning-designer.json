@@ -1,0 +1,114 @@
+{
+  "push_and_verification": {
+    "name": "interactive-learning-designer",
+    "id": "skill-6aca39ab0c8c81919be8fdb11a892483",
+    "before_remote": "ad4d1eaa334325c1386d82ba2a233361661dbbc8",
+    "commit": "d37cd47e0139d30bfcc9a65d9aba779e6c533dfc",
+    "changed": [
+      "skill-6aca39ab0c8c81919be8fdb11a892483/SKILL.md",
+      "skill-6aca39ab0c8c81919be8fdb11a892483/agents/openai.yaml",
+      "skill-6aca39ab0c8c81919be8fdb11a892483/assets/icon.svg",
+      "skill-6aca39ab0c8c81919be8fdb11a892483/references/intelligent-ui-composition.md",
+      "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-contract.md",
+      "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-qa.md"
+    ],
+    "push_output": "To https://chatgpt.com/backend-api/git-authed/skills\n   ad4d1ea..d37cd47  HEAD -> master",
+    "push_success": true,
+    "canonical_ref": "68b096092e488fa5600babc244a98a955186daf5",
+    "identity_verified": true,
+    "readback_match": true,
+    "canonicalization": [
+      "skill-6aca39ab0c8c81919be8fdb11a892483/agents/openai.yaml YAML formatting canonicalization",
+      "skill-6aca39ab0c8c81919be8fdb11a892483/assets/icon.svg platform replaced source SVG 4b96fd7df071003784fca4ca12e23a9bdfe37f58 with canonical platform icon f387e96b74b4a2a407760075db8859a99fdf91f1"
+    ],
+    "allow_implicit_invocation": true,
+    "other_skills_unchanged": true,
+    "canonical_files": [
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/SKILL.md",
+        "mode": "100644",
+        "git_blob": "7b3dc12827470faaf5e8f358bec13145932d2ce4",
+        "sha256": "26435bcfc3b2efcd67e3cf4dcf5818b5db13eecba2b82094b091a98d4de5d7a8"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/agents/openai.yaml",
+        "mode": "100644",
+        "git_blob": "b9bc965665f5f733ccca7247e909d81031d9b2f9",
+        "sha256": "18f575aeca3f0ed81b7438818df8aeb72933808bce9166e3ddd7c84a0c5f9664"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/assets/icon.svg",
+        "mode": "100644",
+        "git_blob": "f387e96b74b4a2a407760075db8859a99fdf91f1",
+        "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/references/intelligent-ui-composition.md",
+        "mode": "100644",
+        "git_blob": "53c6e2beeae796fc778f09a86a2c931d86a4cff0",
+        "sha256": "2277677833920c1acb482f60802fe87cfacf60c5ef55ef5716de91e1f799c610"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-contract.md",
+        "mode": "100644",
+        "git_blob": "2e7407b2a5e53216d6ad468335d863b885395b20",
+        "sha256": "b7199803cd396f63f8e65bff15059df5b39263dcbd885b4f9383fbb20b5feb92"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-qa.md",
+        "mode": "100644",
+        "git_blob": "18ccb0bd5c22cd419e5505ff6d582f8be415e0dd",
+        "sha256": "da5127d1f5c7ff7db6536233f18132931484c16a673ad31703d53dfb508a1330"
+      }
+    ]
+  },
+  "canonical_readback": {
+    "ref": "68b096092e488fa5600babc244a98a955186daf5",
+    "id": "skill-6aca39ab0c8c81919be8fdb11a892483",
+    "name": "interactive-learning-designer",
+    "files": [
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/SKILL.md",
+        "mode": "100644",
+        "git_blob": "7b3dc12827470faaf5e8f358bec13145932d2ce4",
+        "sha256": "26435bcfc3b2efcd67e3cf4dcf5818b5db13eecba2b82094b091a98d4de5d7a8",
+        "content": "---\nname: interactive-learning-designer\ndescription: 复杂原生 Intelligent UI 的设计与验证。在学习/教学对话中，领域 Tutor 已经决定要讲什么、出什么题或如何判断正确性，但回答需要多步骤状态、多个联动视图、连续输入反馈、复杂回退/重置、交互逻辑审查或可复用的小工具时使用；也适用于用户明确要求创建或检查复杂交互体验。普通图示、图表、对照、单个控件、简单练习或其他日常 Intelligent UI 应由领域 Tutor 直接使用，不必等待本 Skill。非学习用途的网站或软件产品 UI 不属于本 Skill。\n---\n\n# Intelligent UI 复杂交互设计器\n\nIntelligent UI 是 ChatGPT 的通用回答能力，不是本 Skill 的专属教学法。本 Skill 只负责**复杂交互结构与实现质量**：当普通 Tutor 已经知道内容和判据，但需要更复杂的界面状态、联动和验证时提供帮助。\n\n## 职责边界\n\n- **领域 Tutor 管内容。** 定义、出题、例/反例、证明、统计结论、代码语义、提示策略和答案判据均由相应 Tutor 或可靠来源决定。\n- **领域 Tutor 也直接使用 Intelligent UI。** 普通学习问题只要图示、图表、并排比较、一个参数控件、简单输入反馈或小工具有帮助，就应直接生成，不需要调用本 Skill。\n- **本 Skill 管复杂交互工程。** 多步骤状态、多视图联动、共享输入、分支、回退/重置、复杂反馈、交互 QA 或复用性较高的工具才值得加载。\n- 不因为“学习”二字就触发，也不为了触发 Skill 强行把简单答案做复杂。\n- 本 Skill 可以单独被选中，但不能假设会自动调用其他 Skill；学科内容不确定时先核实或明确边界。\n\n## 工作方式\n\n1. **读取 Learning Intent 与 Tutor Content。** 接收当前学习目标、领域内容、答案标准和用户偏好，不另建课程路线或教学法。\n2. **判断复杂度是否值得专门设计。** 若领域 Tutor 用普通 Intelligent UI 就能完成，退回领域 Tutor；只有复杂状态、联动或交互正确性需要专门处理时继续。\n3. **设计状态与视图。** 根据当前问题自由组合可用的文本、公式、图形、图表、按钮、选择、输入、表单和交互状态；不套固定模板。按需参考 `references/intelligent-ui-composition.md`。\n4. **保证交互真实工作。** 控件必须改变对应状态或视图；共享派生数据同步；错误输入、边界、分支、返回和重置都要有实际行为。按需执行 `references/interaction-qa.md`。\n5. **保持内容与界面分层。** UI 可以展示定义、练习、证明步骤、模拟或代码状态，但不能改写 Tutor 的学科判据，也不能把视觉现象冒充证明、把动画冒充真实执行、把模拟冒充实测。\n6. **只报告真实可见状态。** 客户端本地点击不一定进入模型上下文。只有用户提交、支持的回调或可信工具结果才能形成可核查的 Interactive Observation；复杂交接参见 `references/interaction-contract.md`。\n\n## 系统边界\n\n- `rigorous-math-tutor`、`statistics-quant-lab`、`computer-ai-tutor` 等应直接使用普通 Intelligent UI；本 Skill 不是它们使用 UI 的前置条件。\n- `course-tutor-builder` 决定课程级 CLP；本 Skill 不改变课程路线。\n- UI 操作本身不是 Evidence。若领域 Tutor 已形成可核验 Evidence，且用户确有持久化诉求，再由 `learning-progress-coordinator` 按其规则处理。\n- 只有用户明确要求 Obsidian 时才进入知识库流程。\n\n## 降级\n\n当前模式不支持所需交互，或复杂 UI 没有实际收益时，退回领域 Tutor 的普通 Intelligent UI 或纯文本回答。核心学科任务不得因本 Skill 不可用而中断。\n"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/agents/openai.yaml",
+        "mode": "100644",
+        "git_blob": "b9bc965665f5f733ccca7247e909d81031d9b2f9",
+        "sha256": "18f575aeca3f0ed81b7438818df8aeb72933808bce9166e3ddd7c84a0c5f9664",
+        "content": "interface:\n  display_name: Intelligent UI 复杂交互设计器\n  short_description: 处理复杂状态、多视图联动、回退与交互 QA；普通 Intelligent UI 由领域 Tutor 直接使用\n  default_prompt: 使用 $interactive-learning-designer 在领域内容和答案判据已经明确的前提下，设计或检查复杂 Intelligent\n    UI 的状态、联动、输入反馈、回退与重置；普通图示、图表或简单控件无需调用本 Skill。\n  icon_small: assets/icon.svg\n  icon_large: assets/icon.svg\npolicy:\n  products:\n  - chatgpt\n  allow_implicit_invocation: true\n"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/assets/icon.svg",
+        "mode": "100644",
+        "git_blob": "f387e96b74b4a2a407760075db8859a99fdf91f1",
+        "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+        "content": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6 20.8217C5.225 20.8217 4.53333 20.655 3.925 20.3217C3.31667 19.98 2.84167 19.505 2.5 18.8967C2.16667 18.2883 2 17.5967 2 16.8217V6.82166C2 6.04666 2.16667 5.35499 2.5 4.74665C2.84167 4.13832 3.31667 3.66749 3.925 3.33415C4.53333 2.99249 5.225 2.82166 6 2.82166H18C18.775 2.82166 19.4667 2.99249 20.075 3.33415C20.6833 3.66749 21.1542 4.13832 21.4875 4.74665C21.8292 5.35499 22 6.04666 22 6.82166V16.8217C22 17.5967 21.8292 18.2883 21.4875 18.8967C21.1542 19.505 20.6833 19.98 20.075 20.3217C19.4667 20.655 18.775 20.8217 18 20.8217H6Z\" fill=\"#DFDFDF\"/>\n<path d=\"M18 2.82166C18.775 2.82166 19.4669 2.99268 20.0752 3.33435C20.6834 3.66767 21.154 4.13825 21.4873 4.74646C21.829 5.35479 22 6.04665 22 6.82166V8.82166H2V6.82166C2 6.04668 2.16669 5.35478 2.5 4.74646C2.8416 4.13824 3.31664 3.66767 3.9248 3.33435C4.53314 2.99268 5.225 2.82166 6 2.82166H18Z\" fill=\"#2E9EFF\"/>\n<path d=\"M8.2875 6.53415C8.4875 6.72582 8.725 6.82166 9 6.82166C9.275 6.82166 9.50833 6.72582 9.7 6.53415C9.9 6.33416 10 6.09666 10 5.82166C10 5.54666 9.9 5.31332 9.7 5.12166C9.50833 4.92166 9.275 4.82166 9 4.82166C8.725 4.82166 8.4875 4.92166 8.2875 5.12166C8.09583 5.31332 8 5.54666 8 5.82166C8 6.09666 8.09583 6.33416 8.2875 6.53415Z\" fill=\"#77C0FF\"/>\n<path d=\"M11.2875 6.53415C11.4875 6.72582 11.725 6.82166 12 6.82166C12.275 6.82166 12.5083 6.72582 12.7 6.53415C12.9 6.33416 13 6.09666 13 5.82166C13 5.54666 12.9 5.31332 12.7 5.12166C12.5083 4.92166 12.275 4.82166 12 4.82166C11.725 4.82166 11.4875 4.92166 11.2875 5.12166C11.0958 5.31332 11 5.54666 11 5.82166C11 6.09666 11.0958 6.33416 11.2875 6.53415Z\" fill=\"#77C0FF\"/>\n<path d=\"M5.2875 6.53415C5.4875 6.72582 5.725 6.82166 6 6.82166C6.275 6.82166 6.50833 6.72582 6.7 6.53415C6.9 6.33416 7 6.09666 7 5.82166C7 5.54666 6.9 5.31332 6.7 5.12166C6.50833 4.92166 6.275 4.82166 6 4.82166C5.725 4.82166 5.4875 4.92166 5.2875 5.12166C5.09583 5.31332 5 5.54666 5 5.82166C5 6.09666 5.09583 6.33416 5.2875 6.53415Z\" fill=\"#77C0FF\"/>\n<path d=\"M14.8743 11.5826C15.2061 11.5273 15.5378 11.6063 15.8696 11.8196L23.052 16.3464C23.3838 16.5598 23.5928 16.8405 23.6797 17.1881C23.7745 17.5279 23.735 17.8522 23.5612 18.1603C23.3874 18.4603 23.1148 18.6655 22.7436 18.776L21.227 19.227L22.0123 20.4584C22.1625 20.735 22.2373 21.0156 22.2373 21.3001C22.2373 21.5766 22.1625 21.8376 22.0123 22.0825C21.8701 22.3273 21.661 22.5291 21.3846 22.6871L20.0809 23.4334C19.8123 23.5993 19.5356 23.6866 19.2513 23.6945C18.9668 23.7024 18.7018 23.6307 18.4568 23.4806C18.2199 23.3305 18.0222 23.1131 17.8642 22.8288L17.0789 21.6205L16.0002 22.6871C15.7474 22.932 15.4387 23.0506 15.0752 23.0427C14.7119 23.0426 14.3956 22.9199 14.1271 22.6751C13.8666 22.4302 13.7363 22.1024 13.7363 21.6917V12.9567C13.7364 12.6092 13.8435 12.3094 14.0567 12.0567C14.27 11.7959 14.5424 11.6379 14.8743 11.5826Z\" fill=\"#4D4D4D\"/>\n</svg>\n"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/references/intelligent-ui-composition.md",
+        "mode": "100644",
+        "git_blob": "53c6e2beeae796fc778f09a86a2c931d86a4cff0",
+        "sha256": "2277677833920c1acb482f60802fe87cfacf60c5ef55ef5716de91e1f799c610",
+        "content": "# Intelligent UI Composition Guide\n\n本参考用于决定**怎样把已经确定的学习内容呈现得更清楚、更可操作**。它不是教学法、题库规范或课程设计框架，也不是必须逐项实现的组件清单。\n\n## 基本原则\n\nIntelligent UI 的格式服从问题。先问：\n\n1. 当前内容如果只用文字，会缺失什么？\n2. 用户需要看、比较、改变、输入、筛选、推进还是直接执行什么？\n3. 哪种最小界面能让这些动作自然发生？\n4. 如果不用 UI，回答是否反而更清楚？\n\n若答案指向纯文本，就不用 UI。\n\n## 常见表达模式（仅作启发）\n\n| 当前任务 | 可能合适的 Intelligent UI 表达 |\n| --- | --- |\n| 比较概念、方法、情境 | 并排布局、差异高亮、可切换视图 |\n| 看结构或空间关系 | 标注图、关系图、几何/结构示意 |\n| 看变量变化 | 图表、参数控件、联动数值与解释 |\n| 理解过程或状态 | 分步状态、前进/后退、历史轨迹、调用栈/流程视图 |\n| 输入并得到即时结果 | 表单、数字/文本输入、确定性反馈、计算小工具 |\n| 查看数据 | 表格、图表、筛选、排序、局部详情 |\n| Tutor 已决定要练习 | 输入区、选项、分步提交、反馈区、提示入口 |\n| Tutor 正在讲定义/证明 | 条件分区、例/非例对照、步骤展开、局部高亮 |\n\n这些只是呈现模式，不决定**应该讲什么、出什么题、给什么提示或什么答案正确**。\n\n## 组合原则\n\n- 可以把文字、公式、图形、表格、输入和状态自由组合；不要固定“一题一滑块”。\n- 同一输入驱动多个视图时，所有派生表示必须一致。\n- 复杂界面不等于更好；能用一个图解决的问题不要堆多面板。\n- 需要真实运行、外部数据、随机模拟或工具执行时，必须明确来源；UI 本身不能伪造这些能力。\n- 用户明确要纯文本、完整答案或停止交互时立即照办。\n\n## 运行环境\n\n只使用当前 Chat 实际支持的 Intelligent UI 能力。不要凭空假设拖拽、动画、3D、异步后台任务、联网、跨聊天状态或自动持久化一定可用。若某种交互不可实现，选用真正可操作的替代形式或降级为静态内容。\n"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-contract.md",
+        "mode": "100644",
+        "git_blob": "2e7407b2a5e53216d6ad468335d863b885395b20",
+        "sha256": "b7199803cd396f63f8e65bff15059df5b39263dcbd885b4f9383fbb20b5feb92",
+        "content": "# Intelligent UI Handoff Contract\n\n本参考只在当前学习回答需要**有状态交互、多个联动视图或可回传操作结果**时读取。它定义的是内容层与 UI 层的边界，不代表存在跨 Skill RPC。\n\n## 1. Learning Intent / Tutor Content\n\n领域 Tutor 或当前上下文提供：\n\n- `learning_goal`：用户现在要理解或完成什么。\n- `domain_content`：定义、公式、题目、步骤、数据、结论或代码语义。\n- `ground_truth_constraints`：关键条件、答案标准、模型假设、运行边界。\n- `response_preference`：是否要直接答案、练习、比较、探索、纯文本等。\n\n这些字段决定**内容**，不是 UI Skill 自己发明的教学计划。\n\n## 2. Intelligent UI Layer\n\n本 Skill 负责把上述内容映射成当前 Chat 实际支持的界面：\n\n- `inputs`：用户可修改/提交的值或选择。\n- `visible_state`：当前可见状态与派生结果。\n- `state_transition`：操作如何改变状态。\n- `layout_and_views`：文字、公式、图、表、控件之间如何组合。\n- `feedback`：仅展示已有判据能够支持的反馈；开放答案保留领域 Tutor / 工具核验。\n\n不要求输出 JSON；这些是内部设计检查项。\n\n## 3. Interactive Observation\n\n只有真正回传到模型或可信工具的内容才能交给后续判断，例如：\n\n- `input_or_action`\n- `observed_result`\n- `feedback_basis`\n- `provenance`\n- `evidence_limit`\n\n客户端局部点击若没有进入上下文，不能猜测或补写。\n\n## 4. Evidence / Progress\n\nUI 只是表达与操作层。是否构成 Evidence 由领域 Tutor 根据学科标准判断；是否写入长期 Progress 由 `learning-progress-coordinator` 在真实来源、授权和存储条件满足时处理。\n"
+      },
+      {
+        "path": "skill-6aca39ab0c8c81919be8fdb11a892483/references/interaction-qa.md",
+        "mode": "100644",
+        "git_blob": "18ccb0bd5c22cd419e5505ff6d582f8be415e0dd",
+        "sha256": "da5127d1f5c7ff7db6536233f18132931484c16a673ad31703d53dfb508a1330",
+        "content": "# Intelligent UI QA\n\n只在生成或审查有实质交互的回答时使用。\n\n## 功能与状态\n\n1. **格式是否有价值**：UI 是否比纯文本更清楚、更可操作；若没有，退回简单回答。\n2. **状态是否一致**：输入改变后，公式、数值、图形、表格和文字说明是否同步。\n3. **控件是否真的工作**：按钮、选择、输入、下一步、返回、重置等不能只有外观。\n4. **边界输入**：缺失、不合法、极端值、无解、多解、空状态是否有合理处理。\n5. **可逆与可读**：复杂状态能否回退/重置；标签、焦点、公式和布局是否易读。\n6. **运行时诚实**：不假设当前 Chat 支持未实际可用的拖拽、动画、联网、后台执行或持久化。\n\n## 内容一致性\n\n1. UI 不能改写领域 Tutor 已确定的定义、条件、答案标准或模型假设。\n2. 图形直觉不能冒充数学证明。\n3. 随机模拟不能冒充理论必然或真实观测数据。\n4. 教学动画不能冒充程序在用户环境中实际运行。\n5. 练习反馈只能使用真实判据；开放证明、统计结论、复杂代码行为需要领域推理或工具核验。\n\n## 证据边界\n\n客户端本地状态若没有通过支持的事件、用户提交或可信产物回传，不得宣称模型已经观察到。UI 操作本身也不自动等于学习 Evidence 或长期掌握。\n"
+      }
+    ]
+  }
+}
