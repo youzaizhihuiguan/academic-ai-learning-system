@@ -1,6 +1,6 @@
 # Interactive Learning Handoff Contract
 
-本参考只在需要**复杂的连续学习交互**或打算将结果转成 Evidence 时读取。概念契约不等于实际存在的跨 Skill RPC、外部服务或跨聊天自动同步。
+本参考只在需要**管理有状态的学习交互、多个视图/操作的关系**，或打算将可见结果交给领域 Tutor 判定 Evidence 时读取。概念契约不等于实际存在的跨 Skill RPC、外部服务或跨聊天自动同步。
 
 ## 1. Learning Intent（学科导师或用户输入）
 
