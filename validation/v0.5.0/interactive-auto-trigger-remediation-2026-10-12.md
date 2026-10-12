@@ -43,3 +43,14 @@ Each prompt belongs in a clean new ordinary Chat with no explicit `@` Skill sele
 5. **Regression:** mathematical/statistical/CS correctness, no invented observed results, no fake Evidence writes or Obsidian export, no mandatory quiz, ordinary tutor remains independent.
 
 **Status:** source patch prepared; deployment and fresh-chat effectiveness remain pending until actually executed. Do not label the routing bug fixed from source tests alone, and do not create a release tag.
+
+
+## Actual source/package validation completed
+
+- Target production source before patch: `d7df19586c7354053913c43f2b1c026786583c6d` (Git blob), `main@4ee98174574c0a41c4aaf66be0c6bc795f6085a2`.
+- New patched `SKILL.md` Git blob: `4f94cfb53755f611804597317067bb1bf7884506`. Both intentional edits are within this single file: its primary trigger `description` and matching activation guidance. The `name` and identity remain `interactive-learning-designer`.
+- The official `quick_validate.py` returned `Skill is valid!`; the official `package_skill.py` produced one complete `skill.zip` (7,308 bytes).
+- New package SHA-256: `9fdbc0880e9371f6bfabf5b1a971cdfd8ed7672289c7abd887dd15b15602d583`. `unzip -t`: no errors.
+- Compared original v0.5.0 packaged archive vs new archive: **the only changed path is `interactive-learning-designer/SKILL.md`**. The other four files (two references, UI metadata and icon) are byte-identical to the original distribution.
+- YAML parsing confirms `name` unchanged and `policy.allow_implicit_invocation == true`. Description length is 278 characters (below max 1024).
+- These results prove source integrity and intent clarification, **not actual automatic routing**. Ordinary Chat still reads the previously installed version until the existing Skill ID is updated through the official Work Skills Git channel.
