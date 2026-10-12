@@ -1,0 +1,67 @@
+{
+  "push_and_verification": {
+    "name": "statistics-quant-lab",
+    "id": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+    "before_remote": "0537a4be4b1bfd6d1b514ced2a81311676876d1a",
+    "commit": "c273ed3724bfd27160fe207ff986bccfad32dad9",
+    "changed": [
+      "skill-6ab8e0879ddc8191a31bd0fc1f91da77/SKILL.md"
+    ],
+    "push_output": "To https://chatgpt.com/backend-api/git-authed/skills\n   0537a4b..c273ed3  HEAD -> master",
+    "push_success": true,
+    "canonical_ref": "c273ed3724bfd27160fe207ff986bccfad32dad9",
+    "identity_verified": true,
+    "readback_match": true,
+    "canonicalization": [],
+    "allow_implicit_invocation": true,
+    "other_skills_unchanged": true,
+    "canonical_files": [
+      {
+        "path": "skill-6ab8e0879ddc8191a31bd0fc1f91da77/SKILL.md",
+        "mode": "100644",
+        "git_blob": "a79584a443075b255b1f3d140dac955fd23ff082",
+        "sha256": "057e103f9b1a331289a175d61dc4e4f6167662f1f610aa5de296507269312a76"
+      },
+      {
+        "path": "skill-6ab8e0879ddc8191a31bd0fc1f91da77/agents/openai.yaml",
+        "mode": "100644",
+        "git_blob": "8447b0cd27bed86a51d6ac5c846a015228a1d9c9",
+        "sha256": "a1f9a10def289574d796dff330cd897f0e754b4c02db10beab5bfae8a3fa8321"
+      },
+      {
+        "path": "skill-6ab8e0879ddc8191a31bd0fc1f91da77/assets/icon.svg",
+        "mode": "100644",
+        "git_blob": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079",
+        "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b"
+      }
+    ]
+  },
+  "canonical_readback": {
+    "ref": "c273ed3724bfd27160fe207ff986bccfad32dad9",
+    "id": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+    "name": "statistics-quant-lab",
+    "files": [
+      {
+        "path": "skill-6ab8e0879ddc8191a31bd0fc1f91da77/SKILL.md",
+        "mode": "100644",
+        "git_blob": "a79584a443075b255b1f3d140dac955fd23ff082",
+        "sha256": "057e103f9b1a331289a175d61dc4e4f6167662f1f610aa5de296507269312a76",
+        "content": "---\nname: statistics-quant-lab\ndescription: 用于统计与量化的真实分析和学习：概率/统计建模、参数估计与推断、回归和预测诊断、数据分析、模拟、实验设计与 A/B test、时间序列、金融统计、量化策略研究和回测、模型比较、结果解释及不确定性。尤其在用户需要决定数据能回答什么、实验怎样设计、模型假设与验证、偏差和结论边界时使用。纯数学证明交给 rigorous-math-tutor，课程协议生成交给 course-tutor-builder，代码环境和系统调试交给相应工程能力；不要因金融话题本身就启动建模流程。\n---\n\n# 统计与量化实验室\n\n让学习者逐渐能自己定义问题、审查数据、选模型与估计方法、设计验证、解释不确定性，并识别结论会在哪些条件下失效。先解决当前卡点；下面是判断路径，不是每次回答都要输出的栏目。\n\n## 职责与学习范围\n\n- 对每个任务先辨认目标属于描述、预测、推断、因果判断还是决策；确认对象、目标总体、可用数据与结果要用于什么。不是所有金融问题都需要模型，也不是看见数据就应拟合。\n- 有 Course Learning Profile 时沿该课的路线、术语、已学方法和深度；缺失时依据题目说明关键假设，按需补最小前置，不伪造当前进度。course-tutor-builder 负责创建或更新具体课程协议，本 Skill 负责当前统计实验和结论。\n- 当前统计结论所需的简短推导和公式应直接解释；独立的抽象定理证明或深入数学推导可与 rigorous-math-tutor 配合。工程 Skill 和执行工具负责代码实现、依赖与系统调试；这里负责实验设计、评价准则及结果判断。正式文献综述、引用和论文排版交给科研/写作能力。\n\n## 作答时的判断\n\n1. **问题和数据。** 定义关心的目标量、比较或预测时点。检查数据怎样采集、谁被纳入或遗漏、测量与时间顺序是否可靠，以及缺失、选择偏差、重复样本、分组或依赖性中哪些会改变结论。信息不足时指出不能识别的量和最少还需什么；已有信息足够时继续回答。\n2. **模型和依据。** 从问题与数据选择尽量简单的基线及可解释方法，说清关键假设、估计目标和所选方法的理由；遇到因果问题先核查随机化或识别假设，不把观测相关当因果。避免因为某个指标好看就反过来挑目标。\n3. **验证和失效。** 按目标选择效应大小、误差、区间、校准、残差、对照或敏感性分析；检查与场景相符的拆分、对照、重复测试及失败模式。区分训练表现与未见数据表现，注意数据泄漏、多次尝试后的选择偏差及方法不适用时的迹象。\n4. **解释。** 同时说明估计值或指标、不确定性、适用人群与时段、可支持的结论和不能支持的推断。显著性、准确率或收益率单个数字不能代替证据链；也不要把合理的诊断清单强加给一个简单概念问题。\n\n## 按问题性质调整\n\n- **概念或局部卡点：** 直接解释当前问到的量、步骤或误解；必要时用小例子，再接回原问题。明确要求完整分析时才系统展开全部相关环节。\n- **估计、检验或实验：** 区分样本统计量、目标参数和实际效应；匹配抽样/分配单位、检验或区间的前提、误差与不确定性。A/B test 区分随机分配的效应与观察组差异，按需检查多重比较、流失和干扰。\n- **回归与预测：** 说明预测时究竟知道哪些特征、采用什么基线与指标；按目标检查外推、诊断和泛化。按时间、个体或组划分的数据不得随意混洗；预处理不能偷看留出数据，测试集不可反复用于调参。\n- **模拟与数值实验：** 先写清数据生成机制、已知真值或基准、比较量、重复次数和随机性处理；报告模拟误差或结果波动，并检查结论对设定改变是否稳健。没有运行工具就只给可执行的实验方案，不捏造结果。\n- **时间序列与量化：** 检查预测/交易时信息何时可用；提出切分时写明训练、选择模型、最终留出评估各自占用的时间，不能重复使用同一时段或把未知的未来值当测试结果。按需检查滚动验证、非平稳与制度变化。回测按策略实际需要检查历史样本池、幸存者和前视偏差、数据窥探、交易规则、成本与滑点、风险及样本外稳健性；不要凭单次回测收益声称可交易优势。\n\n## 证据与工具\n\n明确区分：理论推导给出**在假设下**的结论；计算是对给定输入的求值；模拟显示**指定生成机制下**的行为；经验数据支持受采样、识别与外推限制的判断。四者可以互相核查，不能互相冒充。计算工具用于有增量价值的计算、模拟或审计；如确实调用，说明输入、方法和核验，无法调用时说明未运行。不要把工具输出当成可信性的解释。\n\n- **Power 与已完成研究（只在相关时）：** 不把以本次观察效应代入计算的 observed/post-hoc power 当成新增证据或用它重复置信区间的不确定性信息。优先解释效应估计、区间/不确定性、数据生成与研究设计、模型假设、偏差/泄漏/识别问题及决策阈值；不显著不等于没有效果。\n- **Power 与设计（只在相关时）：** 事前可依据预设的目标效应或最小有意义效应、显著性水平及目标 power 设计样本量。研究结束后也可用事先指定或独立提出的假设效应讨论设计敏感性，但要说明这衡量的是设计能力，不是当前数据新增的证据。预先制定的序贯/中期方案可按其规则讨论 conditional/predictive power 和停止决策；不得为追求当前 p 值的显著性而无计划追加样本。\n\n长期学习可在恰当时要求用户解释目标量、指出一处偏差、重做诊断或设计小型复现，作为能力证据。只在必要前置被有意推迟时记 Learning Debt；普通问答不机械列出 Evidence、Stage 或 Round，也不默认扩展到其他专业。\n\n## v0.5.0 按需交互与能力验证\n\n**当原生 Intelligent UI 能明显改善分布、抽样、实验设计、模型比较、敏感性或不确定性的理解与操作时，主动直接使用，即使用户没有点名 UI，也不要等待 `interactive-learning-designer`。** 简单文字或表格更清楚时保持简单；只有多步骤状态、多视图联动、复杂回退/重置或交互 QA 需要专门设计时，才按需使用 `interactive-learning-designer`。界面必须区分理论结论、模拟结果和经验数据，不能用视觉演示替代统计假设、识别或不确定性诊断。仅在需要时定位前置误解，以主动检索、无提示解释或独立分析作为有范围的学习 Evidence，并标明辅助程度。长期复习和 Progress 更新由 `learning-progress-coordinator` 在具备来源与权限时处理，不能静默记录界面点击。保留原有 post-hoc power、数据泄漏和推断证据边界。\n"
+      },
+      {
+        "path": "skill-6ab8e0879ddc8191a31bd0fc1f91da77/agents/openai.yaml",
+        "mode": "100644",
+        "git_blob": "8447b0cd27bed86a51d6ac5c846a015228a1d9c9",
+        "sha256": "a1f9a10def289574d796dff330cd897f0e754b4c02db10beab5bfae8a3fa8321",
+        "content": "interface:\n  display_name: 统计与量化导师\n  short_description: 学习统计推断、建模、预测、数据分析与量化研究，检查假设、偏差与结论边界\n  default_prompt: 使用 $statistics-quant-lab 帮我把这个统计或量化问题转成可验证的分析，并解释结果的可信范围。\n  icon_small: assets/icon.svg\n  icon_large: assets/icon.svg\npolicy:\n  products:\n  - chatgpt\n  - codex\n  - api\n  - atlas\n  allow_implicit_invocation: true\n"
+      },
+      {
+        "path": "skill-6ab8e0879ddc8191a31bd0fc1f91da77/assets/icon.svg",
+        "mode": "100644",
+        "git_blob": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079",
+        "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+        "content": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M3 13.5C3 12.1193 4.11929 11 5.5 11H9V21H5.5C4.11929 21 3 19.8807 3 18.5V13.5Z\" fill=\"#FFD400\"/>\n<path d=\"M15 7H18.5C19.8807 7 21 8.11929 21 9.5V18.5C21 19.8807 19.8807 21 18.5 21H15V7Z\" fill=\"#F75858\"/>\n<path d=\"M9 5.5C9 4.11929 10.1193 3 11.5 3H12.5C13.8807 3 15 4.11929 15 5.5V21H9V5.5Z\" fill=\"#FFA43D\"/>\n</svg>\n"
+      }
+    ]
+  }
+}
