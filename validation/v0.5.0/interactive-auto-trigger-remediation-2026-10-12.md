@@ -1,3 +1,5 @@
+> **SUPERSEDED by the wider experience-design revision.** The original one-file trigger-only patch and its ZIP/checksums in this report are historical checkpoints, **not the current source to install**. The authoritative updated design, file list, CI and runtime acceptance scope are in [interactive-capability-architecture-2026-10-12.md](interactive-capability-architecture-2026-10-12.md). The new Skill includes a revised body, metadata and design/QA references. Do not install the earlier narrow-patch ZIP.
+
 # Interactive Learning Designer: automatic-trigger remediation (2026-10-12)
 
 ## Report and scope
