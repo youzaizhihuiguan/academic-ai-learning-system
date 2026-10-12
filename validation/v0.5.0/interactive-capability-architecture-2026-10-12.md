@@ -67,3 +67,34 @@ The expected signal is **task-fit and meaningful interaction**, NOT one mandator
 ## Decision
 
 **Ready for review of design/content. Not yet approved for automatic installation, merge or runtime effectiveness claim.** We must test new Chat positive/negative routing against actual installed version first. Keep PR #2 Draft and main unchanged.
+
+## Definitions, question generation and practice expansion
+
+User clarified that this Skill should also exploit Intelligent UI for **definition learning and question/practice generation**, not only visual manipulation. The current branch now treats these as first-class learning interactions:
+
+- definition decomposition/reconstruction; examples, non-examples and near-misses; changing assumptions/quantifiers; cross-representation matching;
+- open calculations/proofs/explanations, generated exercises and adjacent/structural variants, counterexample construction, proof repair, predict-observe-explain, transfer and diagnostic tasks;
+- active retrieval, adaptive hint depth and explanatory feedback, while respecting a direct-answer request;
+- source-grounded exercise generation from user-provided textbook/lecture/assignment materials with explicit distinction between original questions, variants and AI-generated questions;
+- question difficulty changes **structure and transfer demands**, not merely numeric constants;
+- exercise generation itself is not Learning Evidence; only actual observable answers/reasoning/tool results can later be assessed by the domain Tutor and, when authorized, Progress Coordinator.
+
+A new reference, `references/practice-design.md`, contains this open-ended practice/definition design space. It is a generative guide, **not a fixed quiz template or compulsory testing loop**.
+
+## Final package validation after this expansion
+
+A complete bundle was rebuilt from the exact PR source and checked file-by-file with Git blob identities before packaging:
+
+| File | Git blob |
+| --- | --- |
+| `SKILL.md` | `b677d16f0b6a0c801343d8530c2325a60b1a946f` |
+| `agents/openai.yaml` | `7595caea593970b9e09070422f7c565b974f4bdc` |
+| `assets/icon.svg` | `4b96fd7df071003784fca4ca12e23a9bdfe37f58` |
+| `references/interaction-contract.md` | `a83ea2b8c0eca31bae99878ad2967b573eb157a5` |
+| `references/interaction-qa.md` | `823dc106c45422dbe8e575383f55611c1ad68a4c` |
+| `references/experience-design.md` | `a456bf92d66c8c3ed6a5561ce4d9f50c646d3596` |
+| `references/practice-design.md` | `85605778e6274b34188713d581d2e90702105869` |
+
+Official Skill Creator `quick_validate.py`: **PASS**. Official `package_skill.py`: **PASS**. ZIP CRC (`unzip -t`): **PASS**, seven expected members only. Final archive size: **16,656 bytes**; SHA-256: `098b5305bda73b5958c81286923ed521dec1c04fa1bf9c3d14321deb67097421`.
+
+This validation establishes package/source integrity only. The account-installed Skill is still the old version until the existing identity is updated through the authorized Skills Git sync; automatic routing and live Intelligent UI behavior must be tested after that sync.
