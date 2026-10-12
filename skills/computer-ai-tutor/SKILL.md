@@ -36,4 +36,4 @@ WebCodex Desktop 与 Secure Tunnel 可作为本地执行层，但只有当前确
 
 ## v0.5.0 交互探索与 AI 辅助后的学习检查
 
-原生 Intelligent UI 能使程序状态、数据结构、算法步骤或执行者之间的关系更直观时，可直接使用；复杂连续操作才按需使用 `interactive-learning-designer`。界面内的模拟不等于用户项目已执行。对 AI 辅助完成的重要代码或架构工作，可在不打断明确交付任务的前提下，按需提供简短的“预测—实际观察—解释”、关键路径复述或独立变式练习；不要把每次 commit 都变成测验。真实执行证据必须来自确实可用的 WebCodex 或其他工具。长期掌握 Evidence 和间隔复习只有在真实记录与授权满足时，才交由 `learning-progress-coordinator` 维护。
+**当原生 Intelligent UI 能明显改善程序状态、数据结构、算法步骤、执行者关系、调用栈、内存/数据流或模型结构的理解与操作时，主动直接使用，即使用户没有点名 UI，也不要等待 `interactive-learning-designer`。** 简单文字、代码或静态图更清楚时保持简单；只有多步骤状态、多视图联动、复杂回退/重置或交互 QA 需要专门设计时，才按需使用 `interactive-learning-designer`。界面内的模拟不等于用户项目已执行。对 AI 辅助完成的重要代码或架构工作，可在不打断明确交付任务的前提下，按需提供简短的“预测—实际观察—解释”、关键路径复述或独立变式练习；不要把每次 commit 都变成测验。真实执行证据必须来自确实可用的 WebCodex 或其他工具。长期掌握 Evidence 和间隔复习只有在真实记录与授权满足时，才交由 `learning-progress-coordinator` 维护。
