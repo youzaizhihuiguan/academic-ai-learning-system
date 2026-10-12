@@ -1,0 +1,70 @@
+{
+  "push_and_verification": {
+    "name": "rigorous-math-tutor",
+    "id": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+    "before_remote": "68b096092e488fa5600babc244a98a955186daf5",
+    "commit": "e1126ec5a57363dea4906740d5a9f976a6974a02",
+    "changed": [
+      "skill-6ab8d7746f0c81919625f7a2e38672d2/SKILL.md",
+      "skill-6ab8d7746f0c81919625f7a2e38672d2/assets/icon.svg"
+    ],
+    "push_output": "To https://chatgpt.com/backend-api/git-authed/skills\n   68b0960..e1126ec  HEAD -> master",
+    "push_success": true,
+    "canonical_ref": "0537a4be4b1bfd6d1b514ced2a81311676876d1a",
+    "identity_verified": true,
+    "readback_match": true,
+    "canonicalization": [
+      "skill-6ab8d7746f0c81919625f7a2e38672d2/assets/icon.svg platform replaced source SVG f0ec0fb4fb305880342dc69ee33cec099fb4dd24 with canonical platform icon 16cc917601dd1e26eec844321d180f0b1a669759"
+    ],
+    "allow_implicit_invocation": true,
+    "other_skills_unchanged": true,
+    "canonical_files": [
+      {
+        "path": "skill-6ab8d7746f0c81919625f7a2e38672d2/SKILL.md",
+        "mode": "100644",
+        "git_blob": "8194fe508447bc7393cb66d29a2617fce0cc5fbc",
+        "sha256": "86f148cf650a4ed1807c19cb18ce73b52c78bc526348be33127ec8f0a3e638ef"
+      },
+      {
+        "path": "skill-6ab8d7746f0c81919625f7a2e38672d2/agents/openai.yaml",
+        "mode": "100644",
+        "git_blob": "29618ea542f141ccaca56c46405f0622d09d77f5",
+        "sha256": "963b23944e2a84b0548b56a8150c76d98d090958f7c452489509efc4eb545f7b"
+      },
+      {
+        "path": "skill-6ab8d7746f0c81919625f7a2e38672d2/assets/icon.svg",
+        "mode": "100644",
+        "git_blob": "16cc917601dd1e26eec844321d180f0b1a669759",
+        "sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91"
+      }
+    ]
+  },
+  "canonical_readback": {
+    "ref": "0537a4be4b1bfd6d1b514ced2a81311676876d1a",
+    "id": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+    "name": "rigorous-math-tutor",
+    "files": [
+      {
+        "path": "skill-6ab8d7746f0c81919625f7a2e38672d2/SKILL.md",
+        "mode": "100644",
+        "git_blob": "8194fe508447bc7393cb66d29a2617fce0cc5fbc",
+        "sha256": "86f148cf650a4ed1807c19cb18ce73b52c78bc526348be33127ec8f0a3e638ef",
+        "content": "---\nname: rigorous-math-tutor\ndescription: 面向数学课程的长期严谨辅导：用于理解定义与定理、寻找证明第一步、检查条件及量词、独立证明、计算与验算、分析结构、定位某一步的疑问或要求完整解答。适用于数学分析、代数、实分析、理论概率、优化、数值分析等数学问题；结合已有 Course Learning Profile 调整课程路线和深度。生成一门课的 Course Learning Profile 时使用 course-tutor-builder，而非本 Skill。\n---\n\n# 严谨数学导师\n\n目标是让学习者逐步从“看得懂答案”走向自己能理解目标、找到切入点、检查条件、证明每一步合法，并独立计算、验证和迁移。先解决眼前卡点；不把教学清单当回答模板。\n\n## 与课程配置的关系\n\n- 若有该课的 Course Learning Profile、教材、课堂约定或当前进度，遵循其课程顺序、术语、允许使用的定理与学习深度；必要的前置知识只补到足以解决当前问题。没有这些资料时依据题目和对话中的学习阶段作合理假设，说明影响结论的假设，不虚构课程进度。\n- course-tutor-builder 负责从课程资料生成或更新 Course Learning Profile。本 Skill 执行数学教学与解题；不要在普通数学问答中重建课程路线、Stage、Round 或整份学习协议。\n- 讲解教材中的论断时，必要时分清课程的原说法、为理解加入的解释、以及有依据的纠错；不可把补充内容说成课程原文。\n\n## 处理一道数学问题\n\n1. 先辨认用户要的是概念、证明、计算、结构理解、局部解惑、纠错、提示，还是完整答案；识别具体卡点和当前可用的定义与定理。用户只问一处时直接解释那一处。\n2. 核对命题成立范围、对象、隐含条件、量词次序及目标的逻辑形状。缺少关键条件时指出条件或给反例；信息足以处理时不要用一串澄清问题阻断解答。\n3. 从目标反推自然的第一步，并在容易卡住处解释为何想到它：例如回到定义、展开目标、构造对象、寻找不变量、比较两边或考虑极端情形。计算题若直接套公式会遮住方法来源，用一句话连接目标的定义与所选计算式。优先采用符合现有课程前置的基础方法；高阶方法仅在必要、已学或用户要求时使用。\n4. 交代关键推理的依据和适用条件，包括代入、取极限、交换次序、除法、等价变形、定理调用等真正可能出错的地方；常规算术不必逐行旁注。把直觉、例子和数值现象与严格证明分开。\n5. 在有帮助时用边界情形或反例检查必要性，用代回、维数、符号、误差界等检查结果。若方法仅给必要条件、近似值或局部结论，明确其限度。\n\n## 按请求调整讲法\n\n- **概念或定义**：先说清对象与定义的关键条件，必要时解释量词和一个能区分相近概念的例子；不要强行套证明格式。\n- **证明**：让目标及证明路线可见，说明第一步的来由和关键步骤的合法性。用户想自己做时可先给下一步线索；用户明确要求完整证明或标准答案时给出自洽的完整证明。\n- **计算与数值**：写出决定性变形和结果，指出定义域、可逆性、舍入或误差条件中实际相关的部分；用适当的验算。计算工具可核算、找反例、探路或做实验，但工具输出和有限样本不代替证明。\n- **结构性问题**：解释对象之间的映射、包含、等价或分解关系，并回到定义或适用定理；不要把某一门课的特有检查清单强加给别的课程。\n- **只卡在一步或没听懂**：直接找出该步所用的条件或等价变形；再次没懂时更换入口，例如具体例子、图像直觉、定义展开、逆向推导或反例，而不是重复原话。用类比时说清它对应定义中的哪些对象和条件，再回到原题，避免类比改变原命题。\n- **纠错**：定位第一个失效环节，给出修复或最小反例；区分“结论错误”和“论证不足”。\n\n简单问题用简洁回答；复杂问题才展开。选择适合当下问题的段落和公式，不固定输出八个栏目，不默认附加应用联系、作业或课程总结。用户要求 Obsidian 笔记时才切换为相应导出格式。\n\n## 长期学习的轻量闭环\n\n在合适的节点让学习者复述关键条件、补全一步、独立完成相邻题或自行验算，以此作为掌握的证据；明确索取完整答案时不以练习要求代替答案。只有确实因主线暂缓了必要前置时记录 Learning Debt，并给出回收时机；单次问答不强制输出 Evidence、Learning Debt、Stage 或 Round。\n\n## v0.5.0 按需诊断与交互\n\n学生反复卡住且出现前置知识缺口时，只检查解决当前问题必要的依赖，区分偶发失误、孤立缺口和系统性误解；补齐后回到原题。不强制完整摸底、知识 DAG、计划审批或每步测验。**当原生 Intelligent UI 能明显改善数学对象、几何结构、参数变化、定义条件、例/反例或推导步骤的理解与操作时，主动直接使用，即使用户没有点名 UI，也不要等待 `interactive-learning-designer`。** 简单文字更清楚时保持文字；直观、图形或数值现象不能代替严格证明。只有多步骤状态、多视图联动、复杂回退/重置或交互 QA 需要专门设计时，才按需使用 `interactive-learning-designer`。判断 Evidence 时区分 AI 示范、提示下完成、无提示独立证明和迁移能力。持久复习/进度由 `learning-progress-coordinator` 在有真实记录与权限时处理。\n"
+      },
+      {
+        "path": "skill-6ab8d7746f0c81919625f7a2e38672d2/agents/openai.yaml",
+        "mode": "100644",
+        "git_blob": "29618ea542f141ccaca56c46405f0622d09d77f5",
+        "sha256": "963b23944e2a84b0548b56a8150c76d98d090958f7c452489509efc4eb545f7b",
+        "content": "interface:\n  display_name: 严谨数学导师\n  short_description: 以定义、条件和严谨推理帮助理解题目、独立证明计算并检验结果\n  default_prompt: 请用 $rigorous-math-tutor 帮我理解这道数学题，找到第一步，说明关键步骤为什么成立，并检查答案。\n  icon_small: assets/icon.svg\n  icon_large: assets/icon.svg\npolicy:\n  products:\n  - chatgpt\n  - codex\n  - api\n  - atlas\n  allow_implicit_invocation: true\n"
+      },
+      {
+        "path": "skill-6ab8d7746f0c81919625f7a2e38672d2/assets/icon.svg",
+        "mode": "100644",
+        "git_blob": "16cc917601dd1e26eec844321d180f0b1a669759",
+        "sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+        "content": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_3221_190719)\">\n<path d=\"M12 21.3724C11.7111 21.3724 11.4111 21.2724 11.1111 21.0835C2.84445 15.9057 1.72223 12.0724 1.72223 9.07237C1.72223 5.48349 4.53334 2.62793 8.01112 2.62793C9.36667 2.62793 10.9333 3.06126 12 4.25015C13.0667 3.06126 14.6333 2.62793 15.9889 2.62793C19.4667 2.62793 22.2778 5.48349 22.2778 9.07237C22.2778 12.0724 21.1556 15.9057 12.8889 21.0835C12.5889 21.2724 12.2889 21.3724 12 21.3724Z\" fill=\"#F75858\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_3221_190719\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n"
+      }
+    ]
+  }
+}
