@@ -1,4 +1,4 @@
-# v0.5.0 — Open-ended Intelligent UI learning designer revision
+> **SUPERSEDED.** Final architecture is [intelligent-ui-native-layer-2026-10-12.md](intelligent-ui-native-layer-2026-10-12.md): Intelligent UI is a native Tutor response capability; `interactive-learning-designer` is only the complex-UI specialist. This historical report is retained for traceability and must not drive installation.\n\n# v0.5.0 — Open-ended Intelligent UI learning designer revision
 
 Date: 2026-10-12 (Asia/Tokyo). Status: **source revision and CI PASS; account sync / fresh-chat automatic routing not yet accepted**. PR #2 supersedes its earlier one-file trigger-only proposal.
 
