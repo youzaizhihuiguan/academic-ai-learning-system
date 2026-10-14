@@ -1,0 +1,49 @@
+{
+  "name": "course-tutor-builder",
+  "id": "skill-6ab7def0ccf48191baf6dd3758b30516",
+  "canonical_head": "a36000027172939e0356befe6585cf047d8863c6",
+  "files": {
+    "SKILL.md": {
+      "git_blob": "1c9067b112eb09a7b03d356538e0d41f8dc8ff05",
+      "sha256": "cb7b693c3794a2c832075fb11c64f1fcce0d8bc1d2ad8e6a210c3c1d85cd4003",
+      "exact_source": true
+    },
+    "agents/openai.yaml": {
+      "git_blob": "e68419e066ecf4ab63a8c686b1e256ef83663301",
+      "sha256": "67d58804bcbd92568d08b467250c73aafb864382e399998be98152ba5b4da33e",
+      "exact_source": true
+    },
+    "assets/icon.svg": {
+      "git_blob": "16cc917601dd1e26eec844321d180f0b1a669759",
+      "sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+      "exact_source": false
+    },
+    "references/archetypes.md": {
+      "git_blob": "760096bdd78495de60a750a1a642a9f58fbcfe7e",
+      "sha256": "e26cc2e9b9540f5b0d078a159945081383072e2f91aa79979260bc8002ac353d",
+      "exact_source": true
+    },
+    "references/evidence-staging.md": {
+      "git_blob": "e154037916ead2c3d3dabb2c67e172faa6c873df",
+      "sha256": "4c406e3f680f9bd3528d61d7cc6c8a90764b4e2ef5d11bca48e8bbb5d955c39a",
+      "exact_source": true
+    },
+    "references/profile-schema.md": {
+      "git_blob": "0dd2f3881149e3426b4262bf6b9d700493da51c1",
+      "sha256": "5c4b6a703a2f36db6b08faac26c8de8c7de552a7c792e05e7640a0145701441c",
+      "exact_source": true
+    },
+    "references/source-fidelity.md": {
+      "git_blob": "a88c1fc806e270819246caf94ef30c976bd1da0f",
+      "sha256": "c73f617b8e21662c46544b821ed1e95f3bb11de472d8b36654452cc75417c82a",
+      "exact_source": true
+    }
+  },
+  "canonicalization": [
+    "assets/icon.svg"
+  ],
+  "identity_pass": true,
+  "readback_pass": true,
+  "duplicates": [],
+  "other_skills_unchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "name": "rigorous-math-tutor",
+  "id": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+  "canonical_head": "70f80407c17360713ae47581835e888056198ff3",
+  "files": {
+    "SKILL.md": {
+      "git_blob": "547ca6b200a2a8ce1ed62999b87f2923418973d1",
+      "sha256": "9248f20853afe2017477fee87544298173f0de6093d5f08b7744faac8214e2ac",
+      "exact_source": true
+    },
+    "agents/openai.yaml": {
+      "git_blob": "29618ea542f141ccaca56c46405f0622d09d77f5",
+      "sha256": "963b23944e2a84b0548b56a8150c76d98d090958f7c452489509efc4eb545f7b",
+      "exact_source": true
+    },
+    "assets/icon.svg": {
+      "git_blob": "f0ec0fb4fb305880342dc69ee33cec099fb4dd24",
+      "sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+      "exact_source": true
+    }
+  },
+  "canonicalization": [],
+  "identity_pass": true,
+  "readback_pass": true,
+  "duplicates": [],
+  "other_skills_unchanged": true
+}

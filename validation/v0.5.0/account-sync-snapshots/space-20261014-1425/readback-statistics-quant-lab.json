@@ -1,0 +1,27 @@
+{
+  "name": "statistics-quant-lab",
+  "id": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+  "canonical_head": "a2bb50f2b2f533e4b5cb45ffedd553abe9620dd2",
+  "files": {
+    "SKILL.md": {
+      "git_blob": "24094ce7fd8899f56b527b01ad158ea3914dcf1b",
+      "sha256": "f472bb524a2f704090c8f0d33a4a86e6a6090891b577a61370878ef149516617",
+      "exact_source": true
+    },
+    "agents/openai.yaml": {
+      "git_blob": "8447b0cd27bed86a51d6ac5c846a015228a1d9c9",
+      "sha256": "a1f9a10def289574d796dff330cd897f0e754b4c02db10beab5bfae8a3fa8321",
+      "exact_source": true
+    },
+    "assets/icon.svg": {
+      "git_blob": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079",
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+      "exact_source": true
+    }
+  },
+  "canonicalization": [],
+  "identity_pass": true,
+  "readback_pass": true,
+  "duplicates": [],
+  "other_skills_unchanged": true
+}

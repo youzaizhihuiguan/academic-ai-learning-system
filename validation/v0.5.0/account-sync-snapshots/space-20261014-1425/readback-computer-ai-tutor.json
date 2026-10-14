@@ -1,0 +1,27 @@
+{
+  "name": "computer-ai-tutor",
+  "id": "skill-6ab8e8f26b24819190f3b1210fb803c1",
+  "canonical_head": "f45119fd317719bdafcdedc48f58d8c3a6c286c1",
+  "files": {
+    "SKILL.md": {
+      "git_blob": "ca11d597899460fa01dce7d15797b003bf8a556c",
+      "sha256": "098de8eda7821903fc219fc10dbc3aa835de14b4f88e9e7846f00ba93a377b08",
+      "exact_source": true
+    },
+    "agents/openai.yaml": {
+      "git_blob": "c39ead44c4214007344db26ecb20896a7d7e8248",
+      "sha256": "752d0a071e666e32ed846729c407a164450709d48f04f9545e5013bf703ed766",
+      "exact_source": true
+    },
+    "assets/icon.svg": {
+      "git_blob": "c782ded19ff8d6a930f75d1c6433f509da0df66a",
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+      "exact_source": true
+    }
+  },
+  "canonicalization": [],
+  "identity_pass": true,
+  "readback_pass": true,
+  "duplicates": [],
+  "other_skills_unchanged": true
+}
