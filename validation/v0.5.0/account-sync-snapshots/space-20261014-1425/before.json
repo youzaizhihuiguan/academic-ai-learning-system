@@ -1,0 +1,459 @@
+{
+  "account_head": "084f77414c3330b86275fdd14bf75870d65920f0",
+  "inventory": [
+    {
+      "id": "skill-6ab7def0ccf48191baf6dd3758b30516",
+      "name": "course-tutor-builder",
+      "metadata": {
+        "name": "course-tutor-builder",
+        "description": "读取用户提供的一门课程资料、教材、syllabus、视频字幕或讲稿、README、旧提示词、学习路线、课程计划等，分析课程目标、原路线、教学逻辑、课程深度、学习者需求与工具条件，并生成该课程专属、长期可复用的 Course Learning Profile / 课程学习协议。用于用户要求“为这门课生成导师配置/学习协议/长期学习配置”、希望保留原课程路线同时补足原理、Evidence、阶段机制和工具协作，或需要把不同类型课程转化为不同学习范式时。它是 Meta Skill，不直接充当某一学科导师，也不应把所有课程套进统一模板。"
+      },
+      "agent_metadata": {
+        "interface": {
+          "display_name": "课程导师生成器",
+          "short_description": "把具体课程资料转成长期 Course Learning Profile",
+          "icon_small": "assets/icon.svg",
+          "icon_large": "assets/icon.svg"
+        },
+        "policy": {
+          "products": [
+            "chatgpt",
+            "codex",
+            "api",
+            "atlas"
+          ],
+          "allow_implicit_invocation": true
+        }
+      },
+      "files": {
+        "SKILL.md": {
+          "sha256": "2377bad1a0806635ef978dfcee1f948c560c686f8c908ecfc5821fe2c505db44",
+          "git_blob": "2961a0ca7c8c2a2acac707a712bd9ce472c5e7b2",
+          "bytes": 9405
+        },
+        "agents/openai.yaml": {
+          "sha256": "67d58804bcbd92568d08b467250c73aafb864382e399998be98152ba5b4da33e",
+          "git_blob": "e68419e066ecf4ab63a8c686b1e256ef83663301",
+          "bytes": 282
+        },
+        "assets/icon.svg": {
+          "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "git_blob": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079",
+          "bytes": 420
+        },
+        "references/archetypes.md": {
+          "sha256": "e26cc2e9b9540f5b0d078a159945081383072e2f91aa79979260bc8002ac353d",
+          "git_blob": "760096bdd78495de60a750a1a642a9f58fbcfe7e",
+          "bytes": 5254
+        },
+        "references/evidence-staging.md": {
+          "sha256": "4c406e3f680f9bd3528d61d7cc6c8a90764b4e2ef5d11bca48e8bbb5d955c39a",
+          "git_blob": "e154037916ead2c3d3dabb2c67e172faa6c873df",
+          "bytes": 4235
+        },
+        "references/profile-schema.md": {
+          "sha256": "592860f802023c6254b09ebd89c953ba75d641cf8ca3c2a3c00868a61f80bdb0",
+          "git_blob": "2a302a6fe1ed2f4eea238190dd003f3646d91d26",
+          "bytes": 4709
+        },
+        "references/source-fidelity.md": {
+          "sha256": "c73f617b8e21662c46544b821ed1e95f3bb11de472d8b36654452cc75417c82a",
+          "git_blob": "a88c1fc806e270819246caf94ef30c976bd1da0f",
+          "bytes": 3625
+        }
+      }
+    },
+    {
+      "id": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+      "name": "rigorous-math-tutor",
+      "metadata": {
+        "name": "rigorous-math-tutor",
+        "description": "面向数学课程的长期严谨辅导：用于理解定义与定理、寻找证明第一步、检查条件及量词、独立证明、计算与验算、分析结构、定位某一步的疑问或要求完整解答。适用于数学分析、代数、实分析、理论概率、优化、数值分析等数学问题；结合已有 Course Learning Profile 调整课程路线和深度。生成一门课的 Course Learning Profile 时使用 course-tutor-builder，而非本 Skill。"
+      },
+      "agent_metadata": {
+        "interface": {
+          "display_name": "严谨数学导师",
+          "short_description": "以定义、条件和严谨推理帮助理解题目、独立证明计算并检验结果",
+          "default_prompt": "请用 $rigorous-math-tutor 帮我理解这道数学题，找到第一步，说明关键步骤为什么成立，并检查答案。",
+          "icon_small": "assets/icon.svg",
+          "icon_large": "assets/icon.svg"
+        },
+        "policy": {
+          "products": [
+            "chatgpt",
+            "codex",
+            "api",
+            "atlas"
+          ],
+          "allow_implicit_invocation": true
+        }
+      },
+      "files": {
+        "SKILL.md": {
+          "sha256": "86f148cf650a4ed1807c19cb18ce73b52c78bc526348be33127ec8f0a3e638ef",
+          "git_blob": "8194fe508447bc7393cb66d29a2617fce0cc5fbc",
+          "bytes": 5772
+        },
+        "agents/openai.yaml": {
+          "sha256": "963b23944e2a84b0548b56a8150c76d98d090958f7c452489509efc4eb545f7b",
+          "git_blob": "29618ea542f141ccaca56c46405f0622d09d77f5",
+          "bytes": 458
+        },
+        "assets/icon.svg": {
+          "sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+          "git_blob": "16cc917601dd1e26eec844321d180f0b1a669759",
+          "bytes": 667
+        }
+      }
+    },
+    {
+      "id": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+      "name": "statistics-quant-lab",
+      "metadata": {
+        "name": "statistics-quant-lab",
+        "description": "用于统计与量化的真实分析和学习：概率/统计建模、参数估计与推断、回归和预测诊断、数据分析、模拟、实验设计与 A/B test、时间序列、金融统计、量化策略研究和回测、模型比较、结果解释及不确定性。尤其在用户需要决定数据能回答什么、实验怎样设计、模型假设与验证、偏差和结论边界时使用。纯数学证明交给 rigorous-math-tutor，课程协议生成交给 course-tutor-builder，代码环境和系统调试交给相应工程能力；不要因金融话题本身就启动建模流程。"
+      },
+      "agent_metadata": {
+        "interface": {
+          "display_name": "统计与量化导师",
+          "short_description": "学习统计推断、建模、预测、数据分析与量化研究，检查假设、偏差与结论边界",
+          "default_prompt": "使用 $statistics-quant-lab 帮我把这个统计或量化问题转成可验证的分析，并解释结果的可信范围。",
+          "icon_small": "assets/icon.svg",
+          "icon_large": "assets/icon.svg"
+        },
+        "policy": {
+          "products": [
+            "chatgpt",
+            "codex",
+            "api",
+            "atlas"
+          ],
+          "allow_implicit_invocation": true
+        }
+      },
+      "files": {
+        "SKILL.md": {
+          "sha256": "057e103f9b1a331289a175d61dc4e4f6167662f1f610aa5de296507269312a76",
+          "git_blob": "a79584a443075b255b1f3d140dac955fd23ff082",
+          "bytes": 7220
+        },
+        "agents/openai.yaml": {
+          "sha256": "a1f9a10def289574d796dff330cd897f0e754b4c02db10beab5bfae8a3fa8321",
+          "git_blob": "8447b0cd27bed86a51d6ac5c846a015228a1d9c9",
+          "bytes": 474
+        },
+        "assets/icon.svg": {
+          "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b",
+          "git_blob": "2468028d1ed0fc8009b1fc45e7bb027adaf0d079",
+          "bytes": 420
+        }
+      }
+    },
+    {
+      "id": "skill-6ab8e8f26b24819190f3b1210fb803c1",
+      "name": "computer-ai-tutor",
+      "metadata": {
+        "name": "computer-ai-tutor",
+        "description": "在学习或处理编程语言、算法与数据结构、runtime、操作系统、网络、数据库、Web/全栈、软件工程、AI/ML 工程及 LLM 应用时，用于解释代码与系统机制、读代码、调试、测试、性能分析、架构推理和验证 AI 生成代码。帮助用户从“能运行”走向理解执行者、状态与数据流、失败层和验证方法。具体课程路线由 Course Learning Profile 决定；纯数学证明、统计推断/实验评价和正式科研工作流分别由对应 Skill 主导。"
+      },
+      "agent_metadata": {
+        "interface": {
+          "display_name": "计算机与 AI 导师",
+          "short_description": "讲清代码和系统为何运行，指导调试、验证与 AI 辅助开发",
+          "default_prompt": "使用 $computer-ai-tutor 帮我理解这段代码或系统的运行机制，定位当前卡点并设计最小验证。",
+          "icon_small": "assets/icon.svg",
+          "icon_large": "assets/icon.svg"
+        },
+        "policy": {
+          "products": [
+            "chatgpt",
+            "codex",
+            "api",
+            "atlas"
+          ],
+          "allow_implicit_invocation": true
+        }
+      },
+      "files": {
+        "SKILL.md": {
+          "sha256": "0f826cff3b5386dda3f05d683f99b679aa90cbf19a4e5224d04d6714f2648449",
+          "git_blob": "8c50876c48cb02b083780653aae823b79669c00a",
+          "bytes": 6217
+        },
+        "agents/openai.yaml": {
+          "sha256": "752d0a071e666e32ed846729c407a164450709d48f04f9545e5013bf703ed766",
+          "git_blob": "c39ead44c4214007344db26ecb20896a7d7e8248",
+          "bytes": 440
+        },
+        "assets/icon.svg": {
+          "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d",
+          "git_blob": "c782ded19ff8d6a930f75d1c6433f509da0df66a",
+          "bytes": 1738
+        }
+      }
+    },
+    {
+      "id": "skill-6ab8f11863448191ba3dadde8037d515",
+      "name": "obsidian-academic-kb",
+      "metadata": {
+        "name": "obsidian-academic-kb",
+        "description": "仅在用户明确要求“导入 Obsidian”“整理成 Obsidian 笔记”“存进学术知识库”、快速放入 Inbox，或要求检查、编辑、整理其 Obsidian Vault 时使用。将数学、统计、计算机、金融/量化、ML/AI 等已理解或已验证的学习成果整理为可维护、可链接的长期笔记；普通教学、证明、统计分析、调试和课程规划不因主题相关而触发笔记导出。"
+      },
+      "agent_metadata": {
+        "interface": {
+          "display_name": "Obsidian 学术知识库助手",
+          "short_description": "将已理解或验证的学习成果整理成长期可维护的 Obsidian 笔记",
+          "default_prompt": "使用 $obsidian-academic-kb 把这段已验证的学习成果整理成 Obsidian 笔记。",
+          "icon_small": "assets/icon.svg",
+          "icon_large": "assets/icon.svg"
+        },
+        "policy": {
+          "products": [
+            "chatgpt",
+            "codex",
+            "api",
+            "atlas"
+          ],
+          "allow_implicit_invocation": true
+        }
+      },
+      "files": {
+        "SKILL.md": {
+          "sha256": "85eda75e1a15eb9c2445a6d8da9862c9cbc59702494080fd6b9055ca1dce790f",
+          "git_blob": "a16e7e2839e82e70b2db1595fe6a17edd1b6bd5e",
+          "bytes": 5401
+        },
+        "agents/openai.yaml": {
+          "sha256": "7d13456aba71a863a2f60650959dab3202f9f84de615c40624c26074404bc4e4",
+          "git_blob": "7c06799da29fec021ed8bb7ef4c123523d29af2b",
+          "bytes": 422
+        },
+        "assets/icon.svg": {
+          "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+          "git_blob": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+          "bytes": 1210
+        }
+      }
+    },
+    {
+      "id": "skill-6ac4ec61656c819183714870ff114394",
+      "name": "webcodex-project-driver",
+      "metadata": {
+        "name": "webcodex-project-driver",
+        "description": "Drive substantial stateful work through WebCodex as a durable control plane. Use when ChatGPT must execute, continue, recover, or coordinate work whose real state lives in WebCodex projects, Sessions, Jobs, Goals/Tasks, resources, evidence, or handoffs across multiple steps or model turns. Keep exact identity, freshness/generation proof, authority, reconciliation, verification, and durable next-action state separate. Do not use it as a generic domain-methodology Skill or as permission to invent work when the user's objective is ambiguous."
+      },
+      "agent_metadata": {
+        "interface": {
+          "display_name": "WebCodex Project Driver",
+          "short_description": "Control substantial WebCodex work with durable state, recovery, and handoff."
+        }
+      },
+      "files": {
+        "SKILL.md": {
+          "sha256": "a774cea8f3f62001ffcf895519d005b9c089a650221962f04159fd03f521cd73",
+          "git_blob": "5366660d723f83e0d9199584b91bf27437461433",
+          "bytes": 10331
+        },
+        "agents/openai.yaml": {
+          "sha256": "96e9e821db75efa816519589ba8fa276073b6f96d245bc9be87ebc092a091937",
+          "git_blob": "de2d16ae6579cacc3db02cb7d0e7ea8ee307e523",
+          "bytes": 153
+        },
+        "references/attention-routing.md": {
+          "sha256": "ac95c40293e95753462ac4a21f46e240ba335dc2bbcb2c74bc34df06f8aee74d",
+          "git_blob": "5144398cca7f1619e624d03eb3f7143af19901b9",
+          "bytes": 4393
+        },
+        "references/autonomy-escalation.md": {
+          "sha256": "30b4b2b5d69d291a0e1829a39d8d2786e2eafec1a8e5f3885fdbd5ddce7200a5",
+          "git_blob": "ef02a607306280ff6e0c8d5b90b7bb21d792dcdf",
+          "bytes": 3402
+        },
+        "references/closeout-retrospective.md": {
+          "sha256": "ec90e41f6de4c6d9fb50d38cd8a6c15f9c43da3cd82eb7f95c2abb47d2927cc2",
+          "git_blob": "7468fd2b295a3a6a632c5dd77415366d1d56a3a2",
+          "bytes": 2752
+        },
+        "references/composition-boundaries.md": {
+          "sha256": "160aa84b707f675e96d6bd618a905c594cbe39df77905b50d22211565bb9b32f",
+          "git_blob": "0797655863b1586ea6703057681ec90fe707aef7",
+          "bytes": 2893
+        },
+        "references/cross-surface-operations.md": {
+          "sha256": "0625bbc4c6ffee0e7a9eda353797915f6e81c0a9c524728ede58fa51255337b6",
+          "git_blob": "09c09032addca7d9814fe74039dcd9759a2c9354",
+          "bytes": 2999
+        },
+        "references/durable-run-state.md": {
+          "sha256": "1a6ee416c5d1236c475f8f906948dc2b9712eb45fa2cd94f946fce06ea7071ab",
+          "git_blob": "1be77a58b8ed3cb6ac58487b83dda1f1e09f3d05",
+          "bytes": 5451
+        },
+        "references/event-driven-continuation.md": {
+          "sha256": "20509f9f4c9a75fc83da236f687eba4afbde972055de4d7d7da0edd2d71f0d74",
+          "git_blob": "4b2490e6cccef63db5922c5ac3c58668280fa294",
+          "bytes": 2740
+        },
+        "references/execution-model.md": {
+          "sha256": "b26f2fc84ba26ab1338478d36203dbc11f3e660780efad9e9ecc3f3f585119de",
+          "git_blob": "cde4fafcd5baa3d0d41733c636d43a9719fddc4b",
+          "bytes": 3307
+        },
+        "references/interruption-recovery.md": {
+          "sha256": "f86bbd7096044ef20df4cdf461c48fb3abf7ab984a0eba3a6170fd96218d3fd5",
+          "git_blob": "a6dbf0899755ad845543889ac12dc41af001f200",
+          "bytes": 3301
+        },
+        "references/long-running-work.md": {
+          "sha256": "d8f1ddc8cc085854673c32aee6eee559d291c27b6414de39a213e56cf68f5cd2",
+          "git_blob": "01041ba0d7dc1473df0eacbc2e44e722c7520a16",
+          "bytes": 2878
+        },
+        "references/orchestration.md": {
+          "sha256": "323513532d000fecc6af9862ba7946004f55141eb8f3f90c2c97c630d0a5341a",
+          "git_blob": "008c652afc26ad80b1a41cf763c6ff7ba80d43a9",
+          "bytes": 6320
+        },
+        "references/runner-placement.md": {
+          "sha256": "6def961f33e6270b97f268a202cf81898a38374fea55c430dfd6944416e0f249",
+          "git_blob": "6c7703a3720b3a0dc334ed6a6103a3bbf2cc7572",
+          "bytes": 3401
+        },
+        "references/scratch-lifecycle.md": {
+          "sha256": "34c7c0e177d427b82aaf2b86edd368cfbfcbc02c494509da4e4f63bd21afecbf",
+          "git_blob": "b7c4363dda29980ece6b6d5ff3325db772a0db7f",
+          "bytes": 8000
+        },
+        "references/software-git-adaptation.md": {
+          "sha256": "08337d24591a40c8abf1c46b1d3116189df2c30ea1d15f03b37b05b0244b3c00",
+          "git_blob": "2cd59bc863dbfdaff5ce140ca38306ce524fd1af",
+          "bytes": 2102
+        },
+        "references/validation-audit.md": {
+          "sha256": "99aff6e8f9a4b095642177f94f105093bbb2a55f731093a11e9d4bb643266525",
+          "git_blob": "2526f51cdb817d87862fa264a1233c77cc16d0ba",
+          "bytes": 4732
+        },
+        "references/webcodex-capabilities.md": {
+          "sha256": "9994c0080edb99202f6794af69151b76f2266d856e1df049ed29221e0eb42bb9",
+          "git_blob": "7aac13c4496f272874ce8ca5fa969b7a2a06699e",
+          "bytes": 6985
+        }
+      }
+    },
+    {
+      "id": "skill-6aca39ab0c8c81919be8fdb11a892483",
+      "name": "interactive-learning-designer",
+      "metadata": {
+        "name": "interactive-learning-designer",
+        "description": "复杂原生 Intelligent UI 的设计与验证。在学习/教学对话中，领域 Tutor 已经决定要讲什么、出什么题或如何判断正确性，但回答需要多步骤状态、多个联动视图、连续输入反馈、复杂回退/重置、交互逻辑审查或可复用的小工具时使用；也适用于用户明确要求创建或检查复杂交互体验。普通图示、图表、对照、单个控件、简单练习或其他日常 Intelligent UI 应由领域 Tutor 直接使用，不必等待本 Skill。非学习用途的网站或软件产品 UI 不属于本 Skill。"
+      },
+      "agent_metadata": {
+        "interface": {
+          "display_name": "Intelligent UI 复杂交互设计器",
+          "short_description": "处理复杂状态、多视图联动、回退与交互 QA；普通 Intelligent UI 由领域 Tutor 直接使用",
+          "default_prompt": "使用 $interactive-learning-designer 在领域内容和答案判据已经明确的前提下，设计或检查复杂 Intelligent UI 的状态、联动、输入反馈、回退与重置；普通图示、图表或简单控件无需调用本 Skill。",
+          "icon_small": "assets/icon.svg",
+          "icon_large": "assets/icon.svg"
+        },
+        "policy": {
+          "products": [
+            "chatgpt"
+          ],
+          "allow_implicit_invocation": true
+        }
+      },
+      "files": {
+        "SKILL.md": {
+          "sha256": "26435bcfc3b2efcd67e3cf4dcf5818b5db13eecba2b82094b091a98d4de5d7a8",
+          "git_blob": "7b3dc12827470faaf5e8f358bec13145932d2ce4",
+          "bytes": 3842
+        },
+        "agents/openai.yaml": {
+          "sha256": "18f575aeca3f0ed81b7438818df8aeb72933808bce9166e3ddd7c84a0c5f9664",
+          "git_blob": "b9bc965665f5f733ccca7247e909d81031d9b2f9",
+          "bytes": 591
+        },
+        "assets/icon.svg": {
+          "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+          "git_blob": "f387e96b74b4a2a407760075db8859a99fdf91f1",
+          "bytes": 2922
+        },
+        "references/intelligent-ui-composition.md": {
+          "sha256": "2277677833920c1acb482f60802fe87cfacf60c5ef55ef5716de91e1f799c610",
+          "git_blob": "53c6e2beeae796fc778f09a86a2c931d86a4cff0",
+          "bytes": 2291
+        },
+        "references/interaction-contract.md": {
+          "sha256": "b7199803cd396f63f8e65bff15059df5b39263dcbd885b4f9383fbb20b5feb92",
+          "git_blob": "2e7407b2a5e53216d6ad468335d863b885395b20",
+          "bytes": 1775
+        },
+        "references/interaction-qa.md": {
+          "sha256": "da5127d1f5c7ff7db6536233f18132931484c16a673ad31703d53dfb508a1330",
+          "git_blob": "18ccb0bd5c22cd419e5505ff6d582f8be415e0dd",
+          "bytes": 1402
+        }
+      }
+    },
+    {
+      "id": "skill-6aca3a1602908191a5fe5c8484f8d28d",
+      "name": "learning-progress-coordinator",
+      "metadata": {
+        "name": "learning-progress-coordinator",
+        "description": "维护和恢复跨对话的长期课程学习状态。查看或更新真实学习进度、核对独立掌握 Evidence、安排间隔检索复习、管理已学知识的 Review Queue、核对 Stage/Round 阶段闸门或必要 Learning Debt 时使用。具体课程路线由 Course Learning Profile 决定，学科正确性由领域导师判定；本 Skill 不负责新建课程协议、普通学科讲解、UI 工程或 Obsidian 知识笔记。无可信学习记录或存储权限时不能声称已恢复或保存。"
+      },
+      "agent_metadata": {
+        "interface": {
+          "display_name": "学习进度与复习协调器",
+          "short_description": "恢复长期课程进度、核对学习证据并安排针对性复习",
+          "default_prompt": "使用 $learning-progress-coordinator 检查我这门课程真实的进度与学习证据，安排下一步和必要复习；没有记录的部分明确标未知。",
+          "icon_small": "assets/icon.svg",
+          "icon_large": "assets/icon.svg"
+        },
+        "policy": {
+          "products": [
+            "chatgpt"
+          ],
+          "allow_implicit_invocation": true
+        }
+      },
+      "files": {
+        "SKILL.md": {
+          "sha256": "09ca5ff4c5e1885ac3b9e9b487af5505a6fae5a4b689ed473f761653fc8ce957",
+          "git_blob": "de9a5851591eb7ffd8804a221bbc23d0e7c8bfdb",
+          "bytes": 4548
+        },
+        "agents/openai.yaml": {
+          "sha256": "c60b058132a87a715b5a692a6e274caba3b4b27c04822f38d585a202132e0e63",
+          "git_blob": "a881f4990b1f7f1b7a1b35a0d38ff2ee85a10209",
+          "bytes": 458
+        },
+        "assets/icon.svg": {
+          "sha256": "9be88f8dd4c5e658961515c71389eafd45142ffa68bcae58e8dcff57d178ed91",
+          "git_blob": "16cc917601dd1e26eec844321d180f0b1a669759",
+          "bytes": 667
+        },
+        "references/progress-contract.md": {
+          "sha256": "9e5bcb70402e39bd754679731c7cc642558bb4193e4d5a79c801e644a46a8e1e",
+          "git_blob": "0876d8a835b0d10461807faf4478a2f6958ec85a",
+          "bytes": 3096
+        },
+        "references/review-policy.md": {
+          "sha256": "bf4f36c3cf42bc5b0787e948d1904de6fd7d93b6a17a95f5fa9c3a05fbe30b9f",
+          "git_blob": "7d6d4b899e49d8d2d30abdf279a90897289a6b87",
+          "bytes": 2631
+        }
+      }
+    }
+  ],
+  "targets": {
+    "course-tutor-builder": "skill-6ab7def0ccf48191baf6dd3758b30516",
+    "rigorous-math-tutor": "skill-6ab8d7746f0c81919625f7a2e38672d2",
+    "statistics-quant-lab": "skill-6ab8e0879ddc8191a31bd0fc1f91da77",
+    "computer-ai-tutor": "skill-6ab8e8f26b24819190f3b1210fb803c1"
+  },
+  "created_utc": "2026-10-14T14:27:31.970809+00:00",
+  "source_head": "484aa34be3ddfe3d20a1d3d2a21a67bd4eab4285",
+  "rollback_method": "Restore files for exactly one existing ID from rollback-files, stage only that ID, commit and push current account branch; canonical fetch/readback before next ID."
+}
