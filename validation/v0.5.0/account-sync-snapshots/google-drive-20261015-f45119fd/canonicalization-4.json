@@ -1,0 +1,18 @@
+[
+  {
+    "skill": "rigorous-math-tutor",
+    "path": "assets/icon.svg",
+    "before_blob": "f0ec0fb4fb305880342dc69ee33cec099fb4dd24",
+    "after_blob": "4c3163aa85e15ed80114f93a9a2b140a53012c44",
+    "platform_commit": "5cf0758",
+    "candidate_did_not_edit_asset": true
+  },
+  {
+    "skill": "computer-ai-tutor",
+    "path": "assets/icon.svg",
+    "before_blob": "c782ded19ff8d6a930f75d1c6433f509da0df66a",
+    "after_blob": "f0ec0fb4fb305880342dc69ee33cec099fb4dd24",
+    "platform_commit": "12b1a704cf54f79b1c847d43e78d934a67ce152c",
+    "candidate_did_not_edit_asset": true
+  }
+]
